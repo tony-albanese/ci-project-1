@@ -90,14 +90,19 @@ Style the list in the nav bar.
  }
 
  #hero-image {
-    width: 100%;
+    width: 50%;
     height: 600px;
-    background: url("https://c.pxhere.com/images/74/ae/3a6240646f7e6700fd5c2794d63e-1639699.jpg!d") no-repeat left center;
+    background-color: blue;
+    float: left;
+    background: url("https://c.pxhere.com/images/74/ae/3a6240646f7e6700fd5c2794d63e-1639699.jpg!d") no-repeat left center; 
  
  }
 
  #hero-main-text {
-   width: 300px;
+   width: 50%;
+   height: 600px;
+   background-color: blueviolet;
+   float:right;
  }
  /* 
  This class delcaration is for development purposes only.
