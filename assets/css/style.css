@@ -1,7 +1,14 @@
 /* 
 This is the core style sheet.
 */
+
+
+/* Import the fonts. */
 @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Nunito+Sans:wght@300&display=swap');
+
+/* Declare variables for the stylesheet.*/
+
+
 /* Start by setting the style for the whole document. This ensures the entire screen is used.*/
 * {
     margin: 0;
@@ -13,6 +20,7 @@ This is the core style sheet.
 body{
     background-color: rgb(13, 193, 253);
     font-family: 'Nunito Sans', sans-serif;
+    color: rgb(43, 45, 46);
 }
 
 /* 
@@ -46,6 +54,11 @@ Style the list in the nav bar.
     margin-right: 40px;
  }
 
+ nav a {
+    text-decoration: none;
+    color:rgb(43, 45, 46) ;
+ }
+ 
  section {
     clear: both;
  }
