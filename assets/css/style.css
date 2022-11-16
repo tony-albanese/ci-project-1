@@ -79,6 +79,26 @@ Style the list in the nav bar.
  }
 
 
+
+ /* Format the hero image section. */
+ #hero-section {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: var(--debug-color);
+ }
+
+ #hero-image {
+    width: 100%;
+    height: 600px;
+    background: url("https://c.pxhere.com/images/74/ae/3a6240646f7e6700fd5c2794d63e-1639699.jpg!d") no-repeat left center;
+ 
+ }
+
+ #hero-main-text {
+   width: 300px;
+ }
  /* 
  This class delcaration is for development purposes only.
  */
