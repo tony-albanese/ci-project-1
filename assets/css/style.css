@@ -14,3 +14,38 @@ body{
     background-color: lightblue; 
     font-family: 'Nunito Sans', sans-serif;
 }
+
+/* 
+Style the header.
+*/
+header {
+ 
+}
+
+/* 
+Style the list in the nav bar.
+ */
+
+ nav {
+    font-size: 120%;
+    line-height: 75px;
+ }
+
+ #logo-text {
+    float: left;
+    line-height: 75px;
+ }
+
+ nav ul {
+    float: right;
+ }
+
+ nav li {
+    float: left;
+    list-style-type: none;
+    margin-right: 40px;
+ }
+
+ section {
+    clear: both;
+ }
