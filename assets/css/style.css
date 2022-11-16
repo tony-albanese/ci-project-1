@@ -9,6 +9,8 @@ This is the core style sheet.
 
     --text-color: #3a3a3a;
 
+    --bright-text-color: white;
+
 }
 
 /* Import the fonts. */
@@ -84,25 +86,29 @@ Style the list in the nav bar.
  #hero-section {
     height: 600px;
     width: 100%;
-    overflow: hidden;
-    position: relative;
-    background-color: var(--debug-color);
+    overflow: hidden; 
+    background: url("https://picsum.photos/2600/675") no-repeat center center;
+    text-align: left;
+   
  }
 
- #hero-image {
-    width: 50%;
-    height: 600px;
-    background-color: blue;
-    float: left;
-    background: url("https://c.pxhere.com/images/74/ae/3a6240646f7e6700fd5c2794d63e-1639699.jpg!d") no-repeat left center; 
- 
- }
+
 
  #hero-main-text {
-   width: 50%;
-   height: 600px;
+   margin-left: 15%;
+   margin-right: 5%;
+   width: 70%;
    background-color: blueviolet;
-   float:right;
+   color: var(--bright-text-color);
+   
+ }
+
+ #hero-main-text h1 {
+   font-size: 64px;
+ }
+
+ .reasons p {
+font-size: 32px;
  }
  /* 
  This class delcaration is for development purposes only.
