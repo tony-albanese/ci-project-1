@@ -11,7 +11,7 @@ This is the core style sheet.
 
 /* Set the body background */
 body{
-    background-color: lightblue; 
+    background-color: rgb(13, 193, 253);
     font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -48,4 +48,14 @@ Style the list in the nav bar.
 
  section {
     clear: both;
+ }
+
+
+ /* 
+ This class delcaration is for development purposes only.
+ */
+
+ .current-dev-section {
+    height: 75px;
+    background-color: wheat;
  }
