@@ -1,7 +1,7 @@
 /* 
 This is the core style sheet.
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Nunito+Sans:wght@300&display=swap');
 /* Start by setting the style for the whole document. This ensures the entire screen is used.*/
 * {
     margin: 0;
@@ -11,5 +11,6 @@ This is the core style sheet.
 
 /* Set the body background */
 body{
-    background-color: lightblue;
+    background-color: lightblue; 
+    font-family: 'Nunito Sans', sans-serif;
 }
