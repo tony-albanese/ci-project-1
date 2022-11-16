@@ -38,6 +38,11 @@ header {
  
 }
 
+#logo-image {
+    float: left;
+    height: 150px;
+ 
+}
 /* 
 Style the list in the nav bar.
  */
@@ -50,6 +55,8 @@ Style the list in the nav bar.
  #logo-text {
     float: left;
     line-height: 75px;
+    color: white;
+    background-color: var(--main-theme-color);
  }
 
  nav ul {
