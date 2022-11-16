@@ -1,7 +1,14 @@
 <!-- 
 The following are the MINIMUM sections needed in the README.
 -->
-# Project Title
+# Paper 3 Master
+This website is for students enrolled in the International Baccalaureat's Computer Science program who wish to master the third examination paper which focuses on a case study. Although the strucure of the exam remains unchanged, the questions change each year with a new case study. Therefore students cannot rely on past papers to help them leanr content. They must understand how the paper is strucutred and be able to anticiapte what might be asked of them in order to be well prepared.
+
+There are currently limited resources avaialble for students. There are a few YouTube videos that address the content, but none that I have found that address the structure of the paper. Nor do any of these resources address how students can frame their responses to maximize their marks.
+
+There is really only one website that is dedicated to DP Computer Science Paper 3 - [IB CompSci-Hub](https://ib.compscihub.net/paper3).  The only thing available is a generic description of the text.
+
+Paper 3 Master addresses this gap and provides students a single resource to help them achieve their best on this exam.
 
 ## Features
 <!-- 
