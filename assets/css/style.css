@@ -2,6 +2,14 @@
 This is the core style sheet.
 */
 
+:root {
+    --debug-color: #fafa00;
+
+    --main-theme-color: rgb(13, 193, 253);
+
+    --text-color: #3a3a3a;
+
+}
 
 /* Import the fonts. */
 @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Nunito+Sans:wght@300&display=swap');
@@ -18,9 +26,9 @@ This is the core style sheet.
 
 /* Set the body background */
 body{
-    background-color: rgb(13, 193, 253);
+    background-color: var(--main-theme-color);
     font-family: 'Nunito Sans', sans-serif;
-    color: rgb(43, 45, 46);
+    color: var(--text-color);
 }
 
 /* 
@@ -58,7 +66,7 @@ Style the list in the nav bar.
     text-decoration: none;
     color:rgb(43, 45, 46) ;
  }
- 
+
  section {
     clear: both;
  }
@@ -70,5 +78,5 @@ Style the list in the nav bar.
 
  .current-dev-section {
     height: 75px;
-    background-color: wheat;
+    background-color:var(--debug-color);
  }
