@@ -21,20 +21,20 @@ Screenshot image of the feature
 
 <!--Maybe add color scheme as a feature.-->
 - __Navigation Bar__
-- This navigation bar, located at the top of the page, contains links to the Home, Paper 3 Structure, Resource Gallery, and About pages. The bar is fully responsive and will be identical in style and location on each page in the site.
-- This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+    - This navigation bar, located at the top of the page, contains links to the Home, Paper 3 Structure, Resource Gallery, and About pages. The bar is fully responsive and will be identical in style and location on each page in the site.
+    - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
 - __Hero Image__
-- The hero image will be a cartoon showing students studying. The hero image contains colors to match the overall theme of the website.
+    - The hero image will be a cartoon showing students studying. The hero image contains colors to match the overall theme of the website.
 
 - __Hero Image Text__
-- Over this image is brief bit of text explaining what users can expect from the website and a call to action.
+    - Over this image is brief bit of text explaining what users can expect from the website and a call to action.
 
 - __Exams Overview Section__
-- This section will outline whateach of the three papers covers and its weight in determining the final grade.
+    - This section will outline whateach of the three papers covers and its weight in determining the final grade.
 
 - __Footer__
-- The footer section will contain discaimers ensuring that students udnerstand that this site is not endorsed by the IB nor is there any gurantee as to the accuracy of the content.
+    - The footer section will contain discaimers ensuring that students udnerstand that this site is not endorsed by the IB nor is there any gurantee as to the accuracy of the content.
 
 ### Features left to implement
 
