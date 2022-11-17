@@ -157,6 +157,9 @@ margin-left: 16px;
    box-sizing: border-box;
    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
    background-color: var(--card-background-color);
+
+   text-align: left;
+   font-size: 24px;
  }
 
  .exam-card-content {
@@ -164,12 +167,19 @@ margin-left: 16px;
  }
 
 .exam-card-content p {
-   text-align: left;
+   
    margin-left: 16px;
+   margin-right: 16px;
    margin-top: 8px;
-   font-size: 24px;
+
 }
 
 .exam-card-content h1 {
    font-size: 36px;
 }
+
+.exam-description {
+   text-align: justify;
+   font-size: 20px;
+}
+
