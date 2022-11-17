@@ -124,3 +124,39 @@ margin-left: 16px;
     height: 75px;
     background-color:var(--debug-color);
  }
+
+
+ #exam-section {
+   padding: 16px;
+   margin-left: 32px;
+   margin-right: 32px;
+   height: 400px;
+
+ }
+
+ #exam-section h1 {
+   text-align: center;
+ }
+  /* Style exam card elements in the content section */
+
+
+ .exam-card-container {
+   padding: 0 8px;
+   margin: 8px;
+   width: 30%;
+   float: left;
+   text-align: center;
+   min-height: 230px;
+   box-sizing: border-box;
+   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+ }
+
+ .exam-card-content {
+   padding: 8px;
+ }
+
+.exam-card-content p {
+   text-align: left;
+   margin-left: 16px;
+   margin-top: 8px;
+}
