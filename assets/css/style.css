@@ -139,6 +139,10 @@ margin-left: 16px;
  }
   /* Style exam card elements in the content section */
 
+  .cards-container {
+   display: flex;
+   justify-content: space-between;
+  }
 
  .exam-card-container {
    padding: 0 8px;
