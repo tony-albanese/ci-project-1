@@ -136,9 +136,9 @@ margin-left: 16px;
 
  }
 
- #exam-section h1 {
+ #exam-section >h1 {
    text-align: center;
- 
+   font-size: 56px;
  }
   /* Style exam card elements in the content section */
 
@@ -168,4 +168,8 @@ margin-left: 16px;
    margin-left: 16px;
    margin-top: 8px;
    font-size: 24px;
+}
+
+.exam-card-content h1 {
+   font-size: 36px;
 }
