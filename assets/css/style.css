@@ -2,16 +2,25 @@
 This is the core style sheet.
 */
 
+/* Declare variables for the stylesheet.*/
 :root {
+
+   --primary-color-dark: #0000ff;
+   --secondary-color-dark: #002db3;
+   --primary-accent: #bfcfff;
+   --secondary-accent: #809fff;
+
+   --card-background-color: aliceblue; 
+    --text-color: #3a3a3a;
     --debug-color: #fafa00;
 
     --main-theme-color: rgb(13, 193, 253);
 
-    --text-color: #3a3a3a;
+  
 
     --bright-text-color: white;
 
-    --card-background-color: white;
+
 
     --footer-background-color: grey;
 
@@ -20,7 +29,6 @@ This is the core style sheet.
 /* Import the fonts. */
 @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Nunito+Sans:wght@300&display=swap');
 
-/* Declare variables for the stylesheet.*/
 
 
 /* Start by setting the style for the whole document. This ensures the entire screen is used.*/
@@ -32,7 +40,7 @@ This is the core style sheet.
 
 /* Set the body background */
 body{
-    background-color: var(--main-theme-color);
+    background-color: white;
     font-family: 'Nunito Sans', sans-serif;
     line-height: 1.5;
     color: var(--text-color);
@@ -42,7 +50,8 @@ body{
 Style the header.
 */
 header {
- 
+   height: 75px;
+   background-color: var(--primary-color-dark);
 }
 
 #logo-image {
@@ -62,8 +71,8 @@ Style the list in the nav bar.
  #logo-text {
     float: left;
     line-height: 75px;
-    color: white;
-    background-color: var(--main-theme-color);
+    color: var(--primary-accent);
+    background-color: var(--primary-color-dark);
  }
 
  nav ul {
@@ -78,7 +87,7 @@ Style the list in the nav bar.
 
  nav a {
     text-decoration: none;
-    color:rgb(43, 45, 46) ;
+    color:var(--primary-accent) ;
  }
 
  section {
@@ -93,6 +102,7 @@ Style the list in the nav bar.
     width: 100%;
     overflow: hidden; 
     background: url("https://picsum.photos/2600/675") no-repeat center center;
+    background-color: var(--secondary-color-dark);
     text-align: left;
    
  }
@@ -105,7 +115,7 @@ Style the list in the nav bar.
    margin-right: 5%;
    width: 70%;
    /* background-color: blueviolet; */
-   color: var(--bright-text-color);
+   color: var(--primary-accent);
    
  }
 
@@ -141,6 +151,7 @@ margin-left: 16px;
  #exam-section >h1 {
    text-align: center;
    font-size: 56px;
+   color: var(--secondary-color-dark);
  }
   /* Style exam card elements in the content section */
 
@@ -150,23 +161,18 @@ margin-left: 16px;
   }
 
  .exam-card-container {
-   padding: 0 8px;
-   margin: 8px;
+
    width: 30%;
    float: left;
    text-align: center;
    min-height: 230px;
    box-sizing: border-box;
    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-   background-color: var(--card-background-color);
-
+ background-color: var(--card-background-color);
    text-align: left;
    font-size: 24px;
  }
 
- .exam-card-content {
-   padding: 8px;
- }
 
 .exam-card-content p {
    
@@ -178,10 +184,15 @@ margin-left: 16px;
 
 .exam-card-content h1 {
    font-size: 36px;
+   padding-left: 8px;
+   color: var(--primary-accent);
+   background-color: var(--secondary-color-dark);
+
 }
 
 .exam-image {
 text-align: center;
+margin-top: 8px;
 }
 .exam-description {
    text-align: justify;
@@ -190,8 +201,8 @@ text-align: center;
 
 footer {
    padding: 16px;
-   background-color: var(--footer-background-color);
-   color: var(--bright-text-color);
+   background-color: var(--secondary-color-dark);
+   color: var(--secondary-accent);
    
 }
 
