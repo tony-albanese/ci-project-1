@@ -127,15 +127,16 @@ margin-left: 16px;
 
 
  #exam-section {
-   padding: 16px;
+   padding-top: 50px;
+   padding-bottom: 50px;
    margin-left: 32px;
    margin-right: 32px;
-   height: 400px;
 
  }
 
  #exam-section h1 {
    text-align: center;
+ 
  }
   /* Style exam card elements in the content section */
 
