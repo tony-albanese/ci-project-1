@@ -13,6 +13,8 @@ This is the core style sheet.
 
     --card-background-color: white;
 
+    --footer-background-color: grey;
+
 }
 
 /* Import the fonts. */
@@ -183,3 +185,13 @@ margin-left: 16px;
    font-size: 20px;
 }
 
+footer {
+   padding: 16px;
+   background-color: var(--footer-background-color);
+   color: var(--bright-text-color);
+   
+}
+
+footer li {
+   list-style: none;
+}
