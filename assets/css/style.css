@@ -50,7 +50,7 @@ body{
 Style the header.
 */
 header {
-   height: 75px;
+   height: 150px;
    background-color: var(--primary-color-dark);
 }
 
@@ -65,7 +65,7 @@ Style the list in the nav bar.
 
  nav {
     font-size: 120%;
-    line-height: 75px;
+    line-height: 150px;
  }
 
  #logo-text {
