@@ -30,6 +30,7 @@ This is the core style sheet.
 body{
     background-color: var(--main-theme-color);
     font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.5;
     color: var(--text-color);
 }
 
@@ -95,20 +96,25 @@ Style the list in the nav bar.
 
 
  #hero-main-text {
+   margin-top: 32px;
    margin-left: 15%;
    margin-right: 5%;
    width: 70%;
-   background-color: blueviolet;
+   /* background-color: blueviolet; */
    color: var(--bright-text-color);
    
  }
 
  #hero-main-text h1 {
    font-size: 64px;
+   margin: 16px;
+   font-weight: 400;
  }
 
  .reasons p {
-font-size: 32px;
+font-size: 24px;
+font-family: Heebo, sans-serif;
+margin-left: 16px;
  }
  /* 
  This class delcaration is for development purposes only.
