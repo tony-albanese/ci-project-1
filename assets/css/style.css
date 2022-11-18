@@ -193,6 +193,8 @@ margin-left: 16px;
 .exam-image {
 text-align: center;
 margin-top: 8px;
+width: 200px;
+height: 200px;
 }
 .exam-description {
    text-align: justify;
