@@ -1,0 +1,37 @@
+/* This stylesheet styles elements on the structure page. */
+
+
+/* Declare variables for the stylesheet.*/
+/* This is not good practice. Having declaration in two places for variables. See for fix later. */
+:root {
+
+    --primary-color-dark: #0000ff;
+    --secondary-color-dark: #002db3;
+    --primary-accent: #bfcfff;
+    --secondary-accent: #809fff;
+
+    --card-background-color: aliceblue;
+    --text-color: #3a3a3a;
+
+
+    --main-theme-color: rgb(13, 193, 253);
+
+
+
+    --bright-text-color: white;
+
+
+
+    --footer-background-color: grey;
+
+
+    --debug-color: #fafa00;
+    --secondary-debug-color: red;
+    --tertiary-debug-color: green;
+    --quarternary-debug-color: organge;
+}
+
+.question-section-container {
+
+    background-color: var(--debug-color);
+}
