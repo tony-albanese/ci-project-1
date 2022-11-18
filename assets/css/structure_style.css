@@ -36,16 +36,20 @@
 
 .question-section-container {
     background-color: var(--debug-color);
+ 
 }
 
 .question-section-image-container {
     background-color: var(--image-debug-background-color);
-    width: 33%;
+
+}
+
+.question-section-image-container img {
+  
 }
 
 .question-section-text-container {
     background-color: var(--quintal-debug-color);
-    width: 66%;
 }
 
 .question-description-container {
