@@ -32,6 +32,18 @@
 }
 
 .question-section-container {
-
     background-color: var(--debug-color);
+}
+
+.question-description-container {
+background-color: var(--secondary-debug-color);
+}
+
+.sample-question-container {
+background-color: var(--tertiary-debug-color);
+}
+
+.sample-response-container{
+    background-color: var(--tertiary-debug-color);
+
 }
