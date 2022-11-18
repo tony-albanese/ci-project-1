@@ -29,6 +29,7 @@
     --secondary-debug-color: red;
     --tertiary-debug-color: green;
     --quaternary-debug-color: orange;
+    --quintal-debug-color: brown;
 
     --image-debug-background-color: violet;
 }
@@ -39,6 +40,12 @@
 
 .question-section-image-container {
     background-color: var(--image-debug-background-color);
+    width: 33%;
+}
+
+.question-section-text-container {
+    background-color: var(--quintal-debug-color);
+    width: 66%;
 }
 
 .question-description-container {
