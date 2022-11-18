@@ -28,7 +28,9 @@
     --debug-color: #fafa00;
     --secondary-debug-color: red;
     --tertiary-debug-color: green;
-    --quarternary-debug-color: organge;
+    --quaternary-debug-color: orange;
+
+    --image-debug-background-color: violet;
 }
 
 .question-section-container {
@@ -43,7 +45,7 @@ background-color: var(--secondary-debug-color);
 background-color: var(--tertiary-debug-color);
 }
 
-.sample-response-container{
-    background-color: var(--tertiary-debug-color);
+.sample-response-container{ 
+    background-color: var(--quaternary-debug-color);
 
 }
