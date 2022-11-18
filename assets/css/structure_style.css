@@ -40,7 +40,7 @@
 
 .question-section-image-container {
     background-color: var(--image-debug-background-color);
-
+  
 }
 
 .question-section-image-container img {
@@ -49,7 +49,6 @@
 
 .question-section-text-container {
     background-color: var(--quintal-debug-color);
-    float: left;
 }
 
 .question-description-container {
