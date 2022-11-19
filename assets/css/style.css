@@ -62,3 +62,23 @@ margin-left: 2em;
 margin-right: 1em;
 list-style: none;
 }
+
+/* Media query for small screens */
+@media only screen and (max-width: 600px){
+
+    header {
+        justify-content: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        
+    }
+
+    nav a {
+        display: block;
+        width:  100%;
+        text-align: center;
+        justify-content: center;
+    }
+}
