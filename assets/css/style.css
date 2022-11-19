@@ -43,3 +43,17 @@ This is the core style sheet.
     padding: 0;
     border: none;
 }
+
+/* Make every element with this class a flex container */
+.flex-container {
+    display: flex;
+}
+
+header {
+    justify-content: end;
+}
+
+nav li {
+margin-left: 2em;
+margin-right: 1em;
+}
