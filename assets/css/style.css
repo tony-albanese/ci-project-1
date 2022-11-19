@@ -20,7 +20,8 @@ This is the core style sheet.
 
     /* Material design element colors */
     --footer-background-color: grey;
-    --card-background-color: aliceblue;
+    --card-media-color: #B7ABA5;
+    --card-background-color: #E3E4E6;
 
     /* Garish colors for debugging purposes. */
     --debug-color: #fafa00;
@@ -118,8 +119,16 @@ list-style: none;
 
 
 /* Style the cards for the exam content. */
+
+.cards-container {
+justify-content: space-evenly;
+}
+
+
 .exam-card-container {
     width: 300px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px 1px #ABA7A7;
 }
 .exam-card-content {
     flex-direction: column;
@@ -129,6 +138,11 @@ list-style: none;
     height: 150px;
     text-align: center;
     padding-top: 33% ;
+    background-color: var(--tertiary-accent);
+}
+
+.exam-data {
+    background-color: var(--card-background-color);
 }
 
 /* Media query for small screens */
@@ -157,5 +171,9 @@ list-style: none;
     .cards-container {
         flex-direction: column;
         align-items: center;
+    }
+    .exam-card-container {
+        margin-bottom: 2em;
+        margin-top: 1em;
     }
 }
