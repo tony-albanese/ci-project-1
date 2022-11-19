@@ -58,6 +58,7 @@ header {
     justify-content: end;
     background-color: var(--primary-color-dark);
     height: 75px;
+    align-items: center;
 
 }
 
