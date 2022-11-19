@@ -110,6 +110,10 @@ list-style: none;
     top: 33%;
     
 }
+
+#action-button {
+    color: var(--bright-text-color);
+}
 /* Style the cards for the exam content. */
 .exam-card-container {
     width: 300px;
