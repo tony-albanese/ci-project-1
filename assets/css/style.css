@@ -49,6 +49,7 @@ This is the core style sheet.
     display: flex;
 }
 
+/* Layout the elements in the nav bar. */
 header {
     justify-content: end;
 }
