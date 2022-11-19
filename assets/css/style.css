@@ -152,6 +152,7 @@ flex-wrap: wrap;
 }
 .exam-card-content {
     flex-direction: column;
+    padding: 0.5em;
 }
 .exam-card-header {
     height: 100%;
@@ -163,6 +164,7 @@ flex-wrap: wrap;
 
 .exam-data {
     background-color: var(--card-background-color);
+    padding: 0.5em;
 }
 
 
