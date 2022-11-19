@@ -47,6 +47,12 @@ This is the core style sheet.
 body {
     color: var(--dark-text-color);
     background-color: white;
+    font-family: 'Heebo', sans-serif;
+    line-height: 1.5em;
+}
+
+h1{
+margin-bottom: 0.5em;
 }
 
 /* Style the section */
