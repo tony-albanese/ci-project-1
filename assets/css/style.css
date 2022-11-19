@@ -57,14 +57,14 @@ body {
 header {
     justify-content: end;
     background-color: var(--primary-color-dark);
-    height: 75px;
+    min-height: 75px;
     align-items: center;
 
 }
 
 nav a {
     text-decoration: none;
-    background-color: var(--primary-color-dark);
+
     color: var(--bright-text-color);
     font-size: x-large;
 }
