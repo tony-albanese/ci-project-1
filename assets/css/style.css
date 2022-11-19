@@ -5,14 +5,14 @@ This is the core style sheet.
 /* Declare variables for the stylesheet.*/
 :root {
     /* Theme colors */
-    --primary-color-dark: #0000ff;
-    --secondary-color-dark: #002db3;
+    --primary-color-dark: #2f251f;
+    --secondary-color-dark: #2d2c2d;
     --primary-accent: #bfcfff;
-    --secondary-accent: #809fff;
-    --primary-color-dark: #0000ff;
+    --secondary-accent: #f4f4f4;
+    --primary-color-dark: #7b8251;
     --secondary-color-dark: #002db3;
-    --primary-accent: #bfcfff;
-    --secondary-accent: #809fff;
+    --primary-accent: #d5d4d2;
+    --secondary-accent: #f4f4f4;
 
     /* Text colors */
     --bright-text-color: white;
