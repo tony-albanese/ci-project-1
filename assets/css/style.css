@@ -52,6 +52,11 @@ body {
     display: flex;
 }
 
+/* Make every element with this class a grid container. */
+.grid-container {
+    display: grid;
+}
+
 /* Layout the elements in the nav bar. */
 header {
     justify-content: end;
