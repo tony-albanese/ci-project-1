@@ -56,7 +56,9 @@ body {
 /* Layout the elements in the nav bar. */
 header {
     justify-content: end;
-    
+    background-color: var(--primary-color-dark);
+    height: 75px;
+
 }
 
 nav a {
