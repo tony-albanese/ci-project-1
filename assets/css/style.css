@@ -124,13 +124,15 @@ list-style: none;
     width: 200px;
     color: var(--dark-text-color);
     background-color: var(--tertiary-accent);
-    align-self: center;
 
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-radius: 8px;
     font-size: x-large;
 }
 
+#action-button-anchor {
+    align-self: center;
+}
 
 /* Style the cards for the exam content. */
 
