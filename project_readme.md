@@ -24,14 +24,16 @@ Screenshot image of the feature
     - This navigation bar, located at the top of the page, contains links to the Home, Paper 3 Structure, Resource Gallery, and About pages. The bar is fully responsive and will be identical in style and location on each page in the site.
     - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-- __Hero Image__
-    - The hero image will be a cartoon showing students studying. The hero image contains colors to match the overall theme of the website.
+- __Image__
+    - The image will be a cartoon showing students studying. The hero image contains colors to match the overall theme of the website.
 
 - __Hero Image Text__
-    - Over this image is brief bit of text explaining what users can expect from the website and a call to action.
+    - Over this image is brief bit of text explaining what users can expect from the website and a call to action to immediately navigate to the sturcure of the exam section.
 
 - __Exams Overview Section__
-    - This section will outline whateach of the three papers covers and its weight in determining the final grade.
+    - This section will outline what each of the three papers covers and its weight in determining the final grade.
+    - Each list item is accompanied by an icon to correlate to the information presented.
+    - Each card will have an image element that makes a metaphorical link as to what each exam is about.
 
 - __Footer__
     - The footer section will contain discaimers ensuring that students udnerstand that this site is not endorsed by the IB nor is there any gurantee as to the accuracy of the content.
@@ -46,6 +48,10 @@ Screenshot image of the feature
 ## Deployment
 
 ## Credits
+w3schools for info on layout ideas
+CSS Grid and Flexbox
+Scribna for design principles
+Any image creating software, Canva, etc
 ### Content
 ### Media
 
