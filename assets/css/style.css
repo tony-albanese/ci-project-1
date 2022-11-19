@@ -46,6 +46,7 @@ This is the core style sheet.
 
 body {
     color: var(--dark-text-color);
+    background-color: white;
 }
 
 /* Make every element with this class a flex container */
