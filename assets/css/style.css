@@ -7,11 +7,11 @@ This is the core style sheet.
     /* Theme colors */
     --primary-color-dark: #2f251f;
     --secondary-color-dark: #2d2c2d;
+    --tertiary-color-dark: #7b8251;
     --primary-accent: #bfcfff;
     --secondary-accent: #f4f4f4;
-    --primary-color-dark: #7b8251;
-    --primary-accent: #d5d4d2;
-    --secondary-accent: #f4f4f4;
+    --tertiary-accent: #d5d4d2;
+   
 
     /* Text colors */
     --bright-text-color: white;
