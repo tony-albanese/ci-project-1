@@ -5,24 +5,28 @@ This is the core style sheet.
 /* Declare variables for the stylesheet.*/
 :root {
 
-   --primary-color-dark: #0000ff;
-   --secondary-color-dark: #002db3;
-   --primary-accent: #bfcfff;
-   --secondary-accent: #809fff;
-
-   --card-background-color: aliceblue; 
-    --text-color: #3a3a3a;
-    --debug-color: #fafa00;
-
-    --main-theme-color: rgb(13, 193, 253);
-
-  
+    --primary-color-dark: #0000ff;
+    --secondary-color-dark: #002db3;
+    --primary-accent: #bfcfff;
+    --secondary-accent: #809fff;
+    --primary-color-dark: #0000ff;
+    --secondary-color-dark: #002db3;
+    --primary-accent: #bfcfff;
+    --secondary-accent: #809fff;
 
     --bright-text-color: white;
-
-
-
+    --normal-text-color: #3a3a3a;
+    --dark-text-color: black;
+    
     --footer-background-color: grey;
+    --card-background-color: aliceblue;
+
+    --debug-color: #fafa00;
+    --secondary-debug-color: red;
+    --tertiary-debug-color: green;
+    --quaternary-debug-color: orange;
+    --quintal-debug-color: brown;
+    --image-debug-background-color: violet;
 
 }
 
