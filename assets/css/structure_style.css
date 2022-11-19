@@ -37,25 +37,18 @@
 
 .question-section-container {
     background-color: var(--debug-color);
-    display: grid;
-    grid-template-columns: auto;
+    
 }
 
 .question-section-image-container {
     background-color: var(--image-debug-background-color);  
-    grid-column: 1;
-    justify-self: right;
-    align-self: center;
-  
-}
 
-.question-section-image-container img {
   
 }
 
 .question-section-text-container {
     background-color: var(--quintal-debug-color);
-    grid-column: 2;
+
 }
 
 .question-description-container {
