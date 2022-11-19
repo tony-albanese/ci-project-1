@@ -49,6 +49,11 @@ body {
     background-color: white;
 }
 
+/* Style the section */
+section{
+    margin-bottom: 1.5em;
+}
+
 /* Make every element with this class a flex container */
 .flex-container {
     display: flex;
