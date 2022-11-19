@@ -51,9 +51,6 @@ body {
     line-height: 1.5em;
 }
 
-h1{
-margin-bottom: 0.5em;
-}
 
 /* Style the section */
 section{
@@ -144,6 +141,7 @@ list-style: none;
 
 .cards-container {
 justify-content: space-evenly;
+flex-wrap: wrap;
 }
 
 
