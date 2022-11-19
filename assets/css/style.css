@@ -99,6 +99,12 @@ list-style: none;
     height: 600px;
 }
 
+
+.hero-content-overlay{
+    width: 55%;
+    background-color: rgba(45, 44, 45, 0.7);
+    
+}
 /* Style the cards for the exam content. */
 .exam-card-container {
     width: 300px;
