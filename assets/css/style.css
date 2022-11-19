@@ -56,4 +56,5 @@ header {
 nav li {
 margin-left: 2em;
 margin-right: 1em;
+list-style: none;
 }
