@@ -44,6 +44,10 @@ This is the core style sheet.
     border: none;
 }
 
+body {
+    color: var(--dark-text-color);
+}
+
 /* Make every element with this class a flex container */
 .flex-container {
     display: flex;
@@ -52,10 +56,13 @@ This is the core style sheet.
 /* Layout the elements in the nav bar. */
 header {
     justify-content: end;
+    
 }
 
 nav a {
     text-decoration: none;
+    background-color: var(--primary-color-dark);
+    color: var(--bright-text-color);
 }
 
 nav li {
