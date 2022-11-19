@@ -69,6 +69,13 @@ nav a {
     font-size: x-large;
 }
 
+#menu a:hover {
+    border-bottom: 2px solid var(--primary-accent);
+}
+
+.active {
+    border-bottom: 2px solid var(--primary-accent);
+}
 nav li {
 margin-left: 2em;
 margin-right: 1em;
@@ -106,6 +113,10 @@ list-style: none;
         width:  100%;
         text-align: center;
         justify-content: center;
+    }
+
+    nav li {
+        margin-bottom: 1.5em;
     }
 
     .cards-container {
