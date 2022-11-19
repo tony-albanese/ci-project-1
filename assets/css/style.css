@@ -102,18 +102,21 @@ list-style: none;
 
 
 .hero-content-overlay{
-    width: 55%;
+    width: 44%;
     background-color: rgba(45, 44, 45, 0.7);
-    position: absolute;
-
-    left: 25%;
-    top: 33%;
+    flex-direction: column;
     
 }
 
 #action-button {
-    color: var(--bright-text-color);
+    height: 75px;
+    width: 100px;
+    color: var(--dark-text-color);
+    background-color: var(--tertiary-accent);
+    align-self: center;
 }
+
+
 /* Style the cards for the exam content. */
 .exam-card-container {
     width: 300px;
