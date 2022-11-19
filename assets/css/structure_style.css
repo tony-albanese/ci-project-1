@@ -1,37 +1,34 @@
 /* This stylesheet styles elements on the structure page. */
 
-
 /* Declare variables for the stylesheet.*/
-/* This is not good practice. Having declaration in two places for variables. See for fix later. */
 :root {
-
+    /* Theme colors */
+    --primary-color-dark: #0000ff;
+    --secondary-color-dark: #002db3;
+    --primary-accent: #bfcfff;
+    --secondary-accent: #809fff;
     --primary-color-dark: #0000ff;
     --secondary-color-dark: #002db3;
     --primary-accent: #bfcfff;
     --secondary-accent: #809fff;
 
-    --card-background-color: aliceblue;
-    --text-color: #3a3a3a;
-
-
-    --main-theme-color: rgb(13, 193, 253);
-
-
-
+    /* Text colors */
     --bright-text-color: white;
+    --normal-text-color: #3a3a3a;
+    --dark-text-color: black;
 
-
-
+    /* Material design element colors */
     --footer-background-color: grey;
+    --card-background-color: aliceblue;
 
-
+    /* Garish colors for debugging purposes. */
     --debug-color: #fafa00;
     --secondary-debug-color: red;
     --tertiary-debug-color: green;
     --quaternary-debug-color: orange;
     --quintal-debug-color: brown;
-
     --image-debug-background-color: violet;
+
 }
 
 
