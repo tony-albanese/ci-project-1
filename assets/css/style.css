@@ -151,6 +151,14 @@ justify-content: space-evenly;
     background-color: var(--card-background-color);
 }
 
+
+/* Style the footer */
+
+footer {
+    background-color: var(--secondary-color-dark);
+    color: var(--tertiary-accent);
+}
+
 /* Media query for small screens */
 @media only screen and (max-width: 600px){
 
