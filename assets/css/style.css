@@ -202,6 +202,11 @@ flex-wrap: wrap;
     
 }
 
+.exam-card-header h1 {
+    font-weight: 100;
+    font-size: 48px;
+}
+
 .exam-data {
     background-color: var(--card-background-color);
     padding: 0.5em;
