@@ -265,4 +265,48 @@ footer li {
         font-size: x-large;
         letter-spacing: 2px;
     }
+
+
+    /* Style the elements in the overlay section for mobile */
+
+    .hero-content-overlay{
+
+        width: auto;
+        height: 500px;
+    
+        right: 5%;
+        left: 5%;
+        top: 5%;
+    
+        padding: 1em;
+        
+    }
+    
+.hero-content-overlay h1 {
+    font-weight: 200;
+    margin-bottom: 1em;
+    font-size: 32px;
+    
+}
+
+.reasons {
+
+    line-height: 3em;
+}
+
+.reasons p {
+    margin-bottom: 1em;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+#action-button {
+
+    font-size: 24px;
+}
+
+#action-button-anchor {
+    align-self: center;
+}
+
 }
