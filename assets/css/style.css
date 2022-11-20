@@ -326,6 +326,24 @@ footer li {
 
 }
 
-@media only screen and (max-width: 600px) {
-    
+@media only screen and (max-width: 400px) {
+    .hero-content-overlay h1 {
+        font-size: 24px;
+    }
+
+    .reasons p {
+        margin-bottom: 1em;
+        font-size: 14px;
+        font-weight: 200;
+    }
+
+    #action-button {
+
+        font-size: 18px;
+    }
+
+    #exam-section-headline {
+        font-size: large;
+        
+    }
 }
