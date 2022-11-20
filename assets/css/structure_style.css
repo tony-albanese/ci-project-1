@@ -15,7 +15,8 @@
 }
 
 .question-type-header{
-   grid-area: question-type-header;   
+   grid-area: question-type-header;
+   text-align: center;   
 }
 
 
