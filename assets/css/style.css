@@ -119,13 +119,15 @@ grid-template-rows: 600px;
 
     box-sizing: border-box;
     height: auto;
-    width: 50%;
+    width: 75%;
     background-color: rgba(45, 44, 45, 0.95);
     flex-direction: column;
     padding: 1.5em;
 
     justify-self: right;
     align-self: end;
+    margin-bottom: 30px;
+    margin-right: 50px;
     
 }
 
