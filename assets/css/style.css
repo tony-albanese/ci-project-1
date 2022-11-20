@@ -111,16 +111,33 @@ list-style: none;
     
 }
 
-
+/* Set the size and position of the overlay element. */
 .hero-content-overlay{
-    width: 44%;
+    width: 66%;
     background-color: rgba(45, 44, 45, 0.7);
     flex-direction: column;
 
     position: absolute;
     top: 33%;
     right: 33%;
+
+    padding: 1.5em;
     
+}
+
+/* Style the elements in the overlay section */
+.hero-content-overlay h1 {
+    margin-bottom: 1em;
+    font-size: 64px;
+}
+
+.reasons {
+    margin-left: 1em;
+}
+
+.reasons p {
+    margin-bottom: 1em;
+    font-size: 32px;
 }
 
 #action-button {
@@ -131,7 +148,7 @@ list-style: none;
 
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-radius: 8px;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 #action-button-anchor {
