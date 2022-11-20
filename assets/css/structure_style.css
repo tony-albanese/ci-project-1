@@ -2,6 +2,9 @@
 
 /* Declare variables for the stylesheet.*/
 
+.exam-term {
+    font-style: italic;
+}
 .question-section-container {
 
     grid-template-areas: 
