@@ -138,6 +138,20 @@ list-style: none;
     align-self: center;
 }
 
+/* Style the header in the exam section */
+#exam-section-headline {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: xxx-large;
+    color: var(--primary-color-dark);
+    letter-spacing: 4px;
+    white-space: nowrap;
+}
+
 /* Style the cards for the exam content. */
 
 .cards-container {
@@ -206,5 +220,10 @@ footer {
     .exam-card-container {
         margin-bottom: 2em;
         margin-top: 1em;
+    }
+
+    #exam-section-headline {
+        font-size: x-large;
+        letter-spacing: 2px;
     }
 }
