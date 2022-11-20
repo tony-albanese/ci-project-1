@@ -188,6 +188,20 @@ flex-wrap: wrap;
 footer {
     background-color: var(--secondary-color-dark);
     color: var(--tertiary-accent);
+    padding: 1em;
+
+}
+
+footer h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 200;
+    margin-bottom: 1em;
+}
+
+footer li {
+    list-style-type: none;
+    font-weight: 100;
+    margin-bottom: 0.5em;
 }
 
 /* Media query for small screens */
