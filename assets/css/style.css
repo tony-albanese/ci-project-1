@@ -291,13 +291,9 @@ footer li {
     .hero-content-overlay{
 
         width: auto;
-        height: 500px;
-    
-        right: 5%;
-        left: 5%;
-        top: 5%;
-    
-        padding: 1em;
+        align-self: center;
+        justify-self: center;
+        margin-left: 2em;
         
     }
     
@@ -328,4 +324,8 @@ footer li {
    margin-top: 1.5em;
 }
 
+}
+
+@media only screen and (max-width: 600px) {
+    
 }
