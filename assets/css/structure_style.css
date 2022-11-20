@@ -10,6 +10,7 @@
     "question-section-image question-description sample-response"
     "sample-questions sample-questions sample-questions"
     ;
+    grid-template-rows: 75px 250px 1fr;
 }
 
 .question-type-header{
