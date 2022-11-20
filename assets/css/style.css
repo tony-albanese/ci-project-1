@@ -113,13 +113,16 @@ list-style: none;
 
 /* Set the size and position of the overlay element. */
 .hero-content-overlay{
+
+    box-sizing: border-box;
     width: 66%;
-    background-color: rgba(45, 44, 45, 0.7);
+    background-color: rgba(45, 44, 45, 0.95);
     flex-direction: column;
 
     position: absolute;
-    top: 33%;
-    right: 33%;
+
+    right: 30px;
+    bottom: 30px;
 
     padding: 1.5em;
     
@@ -133,11 +136,14 @@ list-style: none;
 
 .reasons {
     margin-left: 1em;
+    align-self: center;
+    line-height: 3em;
 }
 
 .reasons p {
     margin-bottom: 1em;
-    font-size: 32px;
+    font-size: 28px;
+    font-weight: 200;
 }
 
 #action-button {
