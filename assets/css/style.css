@@ -97,7 +97,6 @@ nav a {
 
 header h1 {
     font-weight: 300;
-    font-size: 48px;
     margin-left: 5px;
     color: var(--bright-text-color);
 }
@@ -282,54 +281,42 @@ footer a {
     color: white;
 }
 
-@media only screen and (max-width: 900px) {
 
+@media only screen and (max-width: 1024px) {
+
+    /* Set the size and position of the overlay element. */
     .hero-content-overlay {
+        width: 60%;
+    }
 
-        width: auto;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .hero-content-overlay {
+        width: 100%;
+
+        justify-self: center;
         align-self: flex-end;
-        justify-self: end;
-        margin-left: 1em;
-        margin-right: 1em;
-
+        margin-left: 2em;
+        margin-right: 2em;
     }
 
-    .hero-content-overlay h2 {
-        font-weight: 200;
-        margin-bottom: 0.5em;
-        font-size: 24px;
-    }
+}
 
-    .reasons {
+@media only screen and (max-width: 768px){
 
-        line-height: 1.5em;
-    }
-
-    .reasons p {
-        margin-bottom: 1em;
-        font-size: 15px;
-
-    }
-
-    #action-button-anchor {
-        font-size: x-large;
-        width: 200px;
-        height: 65px;
+    h1 {
+        font-size: 32px;
+        margin-bottom: 1.5em;
+        margin-top: 1em;
     }
 }
 
-/* Media query for small screens */
-@media only screen and (max-width: 600px) {
-
+@media only screen and (max-width: 425px){
     header {
         justify-content: center;
         flex-direction: column;
-    }
-
-    header h1 {
-        font-size: 36px;
-        margin-top: 0.5em;
-        margin-bottom: 1em;
     }
 
     nav ul {
@@ -363,62 +350,22 @@ footer a {
         letter-spacing: 2px;
     }
 
-
-    /* Style the elements in the overlay section for mobile */
-
-    .hero-content-overlay {
-
-        width: auto;
-        align-self: center;
-        justify-self: center;
-        margin-left: 2em;
-
-    }
-
     .hero-content-overlay h2 {
-        font-weight: 200;
-        margin-bottom: 1em;
-        font-size: 32px;
-
+        font-size: 24px;
     }
-
     .reasons {
 
         line-height: 3em;
     }
-
     .reasons p {
-        margin-bottom: 1em;
+        margin-bottom: 0.5em;
         font-size: 16px;
-        font-weight: 200;
+        font-weight: 100;
     }
-
-
     #action-button-anchor {
+        width: 250px;
+        height: 65px;
         margin-top: 1.5em;
-        font-size: 24px;
-    }
-
-}
-
-@media only screen and (max-width: 400px) {
-    .hero-content-overlay h2 {
-        font-size: 24px;
-    }
-
-    .reasons p {
-        margin-bottom: 1em;
-        font-size: 14px;
-        font-weight: 200;
-    }
-
-    #action-button-anchor {
-        width: 200px;
         font-size: 18px;
-    }
-
-    #exam-section-headline {
-        font-size: large;
-
     }
 }
