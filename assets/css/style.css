@@ -139,7 +139,7 @@ grid-template-rows: 600px;
 }
 
 /* Style the elements in the overlay section */
-.hero-content-overlay h1 {
+.hero-content-overlay h2 {
     font-weight: 200;
     margin-bottom: 1em;
     font-size: 64px;
