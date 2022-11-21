@@ -2,13 +2,14 @@
 section {
     margin-top: 5em;
     width: 100%;
-    min-height: 400px;
+   
     height: auto;
 }
 
 .exam-term {
     font-style: italic;
 }
+
 .question-section-container {
 
     grid-template-areas: 
@@ -23,7 +24,9 @@ section {
 
 .question-type-header{
    grid-area: question-type-header;
-   text-align: center;   
+   text-align: left; 
+   background-color: white;
+   padding-bottom: 0.5em;
 }
 
 
