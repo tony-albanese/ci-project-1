@@ -10,18 +10,40 @@
 
   
     /* These are to color elements only found on the resources.html page. */
+
+    --article-resource-color: #d9d3e4;
 }
 
 .resource-card-container{
     width: 300px;
     height: 400px;
     border: 2px solid red;
+    margin: 2em;
 }
 
 .resource-card-content{
     flex-direction: column;
 }
 
+
+
 .resource-section {
     flex-wrap: wrap;
+}
+
+.resource-card-header {
+    display: grid;
+    flex-direction: column;
+}
+
+.article-resource {
+background-color: var(--article-resource-color);
+}
+
+.video-resource {
+
+}
+
+.tutorial-resource {
+
 }
