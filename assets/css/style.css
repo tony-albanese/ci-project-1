@@ -110,9 +110,9 @@ list-style: none;
     grid-template-rows: auto;
     grid-template-columns: auto;
     background-color: var(--secondary-color-dark);
-    background: url("../images/hero.jpg") no-repeat;
+    background: url("../images/students_09-cropped.jpg") no-repeat;
     color: var(--bright-text-color);
-    height: 600px;
+    height: 700px;
 }
 
 #hero-section-content-container {
