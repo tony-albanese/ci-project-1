@@ -1,5 +1,10 @@
 /* This stylesheet styles elements on the structure page. */
-
+section {
+    margin-top: 5em;
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+}
 
 .exam-term {
     font-style: italic;
@@ -11,8 +16,8 @@
     "question-description sample-response"
     "sample-questions sample-questions"
     ;
-    grid-template-rows: 75px 250px 1fr;
-    grid-template-columns: minmax(270px, 400px) minmax(270px, 400px); 
+    grid-template-rows: auto auto auto;
+    grid-template-columns: minmax(270px, 600px) minmax(270px, 600px); 
     justify-content: center;
 }
 
@@ -47,26 +52,22 @@ padding: 2em;
 }
 
 #quesion1-section{
-    width: 100%;
-    height: 600px;
+
     background: url("../images/brain-transparent.webp") no-repeat center center;
 }
 
 #question2-section {
-    width: 100%;
-    height: 600px;
+
     background: url("../images/lego-transparent.webp") no-repeat center center;
 }
 
 #question3-section {
-    width: 100%;
-    height: 600px;
+
     background: url("../images/write-transparent.webp") no-repeat center center;
 }
 
 #question4-section {
-    width: 100%;
-    height: 600px;
+  
     background: url("../images/essay-transparent.webp") no-repeat center center;
 }
 
