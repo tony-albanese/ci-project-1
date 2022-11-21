@@ -28,6 +28,9 @@ This is the core style sheet.
     --hero-action-button-color: #B02D10ff;
     --hero-action-button-text-color: #E7E7E8ff;
 
+
+    /* Colors for footer section */
+    --footer-background-color: #086A97ff;
     /* Theme colors */
     --primary-color-dark: #2f251f;
     --secondary-color-dark: #2d2c2d;
@@ -37,7 +40,6 @@ This is the core style sheet.
     --tertiary-accent: #d5d4d2;
 
     /* Material design element colors */
-    --footer-background-color: grey;
     --card-media-color: #B7ABA5;
     --card-background-color: #E3E4E6;
 
@@ -253,8 +255,8 @@ flex-wrap: wrap;
 /* Style the footer */
 
 footer {
-    background-color: var(--secondary-color-dark);
-    color: var(--tertiary-accent);
+    background-color: var(--footer-background-color);
+    color: white;
     padding: 1em;
 
 }
@@ -269,6 +271,9 @@ footer li {
     list-style-type: none;
     font-weight: 100;
     margin-bottom: 0.5em;
+}
+footer a {
+    color: white;
 }
 
 /* Media query for small screens */
