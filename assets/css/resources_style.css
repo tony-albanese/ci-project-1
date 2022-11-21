@@ -1,0 +1,13 @@
+/* Declare variables for the stylesheet.*/
+:root {
+
+    /* Theme colors generated from hero image*/
+    --sapphire-blue: #086A97ff;
+    --platinum: #E7E7E8ff;
+    --chinese-red: #B02D10ff;
+    --champagne-pink: #F2DDD3ff;
+    --tumbleweed: #EDB287ff;
+
+  
+    /* These are to color elements only found on the resources.html page. */
+}
