@@ -34,19 +34,21 @@ padding: 2em;
 
 .question-description-container{
 
-
+background-color: rgba(213, 212, 210,0.7);
  grid-area: question-description;
  padding: 2em;
  
 }
 
 .sample-response-container {
+background-color: rgba(252, 246, 189, 0.8);
 grid-area: sample-response;
 padding: 2em;
 
 }
 
 .sample-question-container{
+    background-color: rgba(191, 207, 255, 0.7);
     grid-area: sample-questions;
     padding: 2em;
 }
