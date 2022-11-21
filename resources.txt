@@ -41,3 +41,14 @@ https://towardsdatascience.com/machine-learning-fundamentals-via-linear-regressi
 
 https://www.analyticssteps.com/blogs/7-types-cost-functions-machine-learning
 
+
+
+Put this link in footer if using the education PNGs
+<a href="https://www.flaticon.com/free-icons/training" title="training icons">Training icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/brain" title="brain icons">Brain icons created by Smashicons - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/knowledge" title="knowledge icons">Knowledge icons created by Smashicons - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/brain" title="brain icons">Brain icons created by Maxim Basinski Premium - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/lego" title="lego icons">Lego icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/edit" title="edit icons">Edit icons created by Kiranshastry - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/paper" title="paper icons">Paper icons created by Freepik - Flaticon</a>
