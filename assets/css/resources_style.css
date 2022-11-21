@@ -34,6 +34,18 @@
     flex-direction: column;
 }
 
+.resource-description {
+    width: 100%;
+    height: 200px;
+}
+
 .article-resource {
     background-color: var(--article-resource-color);
+}
+
+.article-background {
+    background-image: url("../images/article.png") ;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
