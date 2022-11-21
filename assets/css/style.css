@@ -69,7 +69,7 @@ section{
 
 /* Layout the elements in the nav bar. */
 header {
-    justify-content: end;
+    justify-content: space-between;
     background-color: var(--tertiary-color-dark);
     min-height: 75px;
     align-items: center;
