@@ -4,6 +4,25 @@ This is the core style sheet.
 
 /* Declare variables for the stylesheet.*/
 :root {
+
+    /* Theme colors generated from hero image*/
+--sapphire-blue: #086A97ff;
+--platinum: #E7E7E8ff;
+--chinese-red: #B02D10ff;
+--champagne-pink: #F2DDD3ff;
+--tumbleweed: #EDB287ff;
+
+    /* Colors for nav */
+    --nav-background-color: #086A97ff;
+    --nav-text-color: #E7E7E8ff;
+    --nav-border-color: #EDB287ff;
+
+    /* Text colors */
+    --bright-text-color: white;
+    --normal-text-color: #3a3a3a;
+    --dark-text-color: black;
+    --accent-text-color: #F2DDD3ff
+
     /* Theme colors */
     --primary-color-dark: #2f251f;
     --secondary-color-dark: #2d2c2d;
@@ -11,25 +30,11 @@ This is the core style sheet.
     --primary-accent: #bfcfff;
     --secondary-accent: #f4f4f4;
     --tertiary-accent: #d5d4d2;
-   
-
-    /* Text colors */
-    --bright-text-color: white;
-    --normal-text-color: #3a3a3a;
-    --dark-text-color: black;
 
     /* Material design element colors */
     --footer-background-color: grey;
     --card-media-color: #B7ABA5;
     --card-background-color: #E3E4E6;
-
-    /* Garish colors for debugging purposes. */
-    --debug-color: #fafa00;
-    --secondary-debug-color: red;
-    --tertiary-debug-color: green;
-    --quaternary-debug-color: orange;
-    --quintal-debug-color: brown;
-    --image-debug-background-color: violet;
 
 }
 
@@ -45,8 +50,7 @@ This is the core style sheet.
 }
 
 body {
-    color: var(--dark-text-color);
-    background-color: white;
+    color: var(--normal-text-color);
     font-family: 'Heebo', sans-serif;
     line-height: 1.5em;
 }
@@ -70,7 +74,7 @@ section{
 /* Layout the elements in the nav bar. */
 header {
     justify-content: space-between;
-    background-color: var(--tertiary-color-dark);
+    background-color: var(--nav-background-color);
     min-height: 75px;
     align-items: center;
 
@@ -91,11 +95,11 @@ header h1 {
 }
 
 #menu a:hover {
-    border-bottom: 2px solid var(--primary-accent);
+    border-bottom: 2px solid var(--nav-border-color);
 }
 
 .active {
-    border-bottom: 2px solid var(--primary-accent);
+    border-bottom: 2px solid var(--nav-border-color);
 }
 nav li {
 margin-left: 2em;
