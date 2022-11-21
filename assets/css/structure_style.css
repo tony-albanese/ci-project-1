@@ -8,12 +8,12 @@
 .question-section-container {
 
     grid-template-areas: 
-    "question-type-header question-type-header question-type-header"
-    "question-section-image question-description sample-response"
-    "sample-questions sample-questions sample-questions"
+    "question-type-header question-type-header"
+    "question-description sample-response"
+    "sample-questions sample-questions"
     ;
     grid-template-rows: 75px 250px 1fr;
-    grid-template-columns: minmax(270px, 400px) minmax(270px, 400px) minmax(270px, 400px); 
+    grid-template-columns: minmax(270px, 400px) minmax(270px, 400px); 
     justify-content: center;
 }
 
@@ -41,6 +41,12 @@ padding: 2em;
 .sample-question-container{
     grid-area: sample-questions;
     padding: 2em;
+}
+
+#quesion1-section{
+    width: 100%;
+    height: 600px;
+    background: url("../images/brain.png") no-repeat center center;
 }
 
 @media only screen and (max-width: 600px) {
