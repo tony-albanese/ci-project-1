@@ -21,10 +21,12 @@ This is the core style sheet.
     --bright-text-color: white;
     --normal-text-color: #3a3a3a;
     --dark-text-color: black;
-    --accent-text-color: #F2DDD3ff
+    --accent-text-color: #F2DDD3ff;
 
     /* Colors for hero section */
     --hero-text-overlay: #F2DDD3ff;
+    --hero-action-button-color: #B02D10ff;
+    --hero-action-button-text-color: #E7E7E8ff;
 
     /* Theme colors */
     --primary-color-dark: #2f251f;
@@ -172,8 +174,8 @@ grid-template-rows: 600px;
     align-content: center;
     height: 75px;
     width: 300px;
-    color: var(--dark-text-color);
-    background-color: var(--tertiary-accent);
+    color: var(--hero-action-button-text-color);
+    background-color: var(--hero-action-button-color);
     padding: 5px;
 
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(233, 227, 227, 0.699);
