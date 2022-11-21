@@ -52,3 +52,6 @@ Put this link in footer if using the education PNGs
 <a href="https://www.flaticon.com/free-icons/lego" title="lego icons">Lego icons created by Freepik - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/edit" title="edit icons">Edit icons created by Kiranshastry - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/paper" title="paper icons">Paper icons created by Freepik - Flaticon</a>
+
+Credit for new hero image.
+<a href="https://www.freepik.com/free-vector/college-university-students-group-young-happy-people-standing-isolated-white-background_21852399.htm#query=happy%20students&position=8&from_view=search&track=sph">Image by studio4rt</a> on Freepik
