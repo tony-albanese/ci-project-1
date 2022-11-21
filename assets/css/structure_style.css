@@ -2,12 +2,11 @@
 section {
     margin-top: 5em;
     width: 100%;
-   
     height: auto;
 }
-p, li {
+
+p {
     margin-bottom: 1em;
-    font-size: 20px;
 }
 
 h3 {
