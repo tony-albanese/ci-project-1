@@ -11,3 +11,12 @@
   
     /* These are to color elements only found on the resources.html page. */
 }
+
+.resource-card-container{
+    width: 300px;
+    height: 400px;
+}
+
+.resource-card-content{
+    flex-direction: column;
+}
