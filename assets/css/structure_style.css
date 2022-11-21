@@ -6,6 +6,9 @@ section {
     height: auto;
 }
 
+h3 {
+    margin-bottom: 0.5em;
+}
 .exam-term {
     font-style: italic;
 }
