@@ -158,20 +158,26 @@ grid-template-rows: 600px;
     font-weight: 200;
 }
 
-#action-button {
+#action-button-anchor {
+    display: grid;
+    justify-content: center;
+    align-content: center;
     height: 75px;
-    width: 200px;
+    width: 300px;
     color: var(--dark-text-color);
     background-color: var(--tertiary-accent);
+    padding: 5px;
 
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(233, 227, 227, 0.699);
     border-radius: 8px;
     font-size: xx-large;
+    align-self: center;
+
+    text-decoration: none;
+   
 }
 
-#action-button-anchor {
-    align-self: center;
-}
+
 
 /* Style the header in the exam section */
 #exam-section-headline {
@@ -329,13 +335,10 @@ footer li {
     font-weight: 200;
 }
 
-#action-button {
-
-    font-size: 24px;
-}
 
 #action-button-anchor {
-   margin-top: 1.5em;
+   margin-top: 1.5em; 
+   font-size: 24px;
 }
 
 }
@@ -351,8 +354,8 @@ footer li {
         font-weight: 200;
     }
 
-    #action-button {
-
+    #action-button-anchor {
+        width: 200px;
         font-size: 18px;
     }
 
