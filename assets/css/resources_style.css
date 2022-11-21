@@ -15,10 +15,12 @@
 }
 
 .resource-card-container{
+    box-sizing: border-box;
     width: 300px;
-    height: 400px;
+    height: 500px;
     border: 2px solid red;
     margin: 2em;
+    flex-direction: column;
 }
 
 .resource-card-content{
@@ -59,9 +61,6 @@
     padding: 1em;
 }
 
-.resource-description p {
-    
-}
 .article-resource {
     background-color: var(--article-resource-color);
 }
@@ -72,3 +71,18 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+.resource-button {
+    justify-self: center;
+    display: grid;
+    width: 150px;
+    height: 75px;
+    background-color: red;
+    align-content: center;
+}
+
+.resource-button a {
+text-align: center;
+  
+}
+
