@@ -69,3 +69,7 @@ video
 
 presentation/tutorial
 <a href="https://www.flaticon.com/free-icons/tutorial" title="tutorial icons">Tutorial icons created by Freepik - Flaticon</a>
+
+effect for animated shadow on resouce page
+
+https://codepen.io/sdthornton/pen/wBZdXq
