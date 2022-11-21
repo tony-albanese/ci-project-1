@@ -91,6 +91,12 @@ padding: 2em;
     background: url("../images/essay-transparent.webp") no-repeat center center;
 }
 
+
+footer a {
+    color: #d5d4d2;
+    font-size: 14px;
+}
+
 @media only screen and (max-width: 600px) {
     .question-section-container {
         grid-template-areas:
