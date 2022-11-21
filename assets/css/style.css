@@ -23,6 +23,9 @@ This is the core style sheet.
     --dark-text-color: black;
     --accent-text-color: #F2DDD3ff
 
+    /* Colors for hero section */
+    --hero-text-overlay: #F2DDD3ff;
+
     /* Theme colors */
     --primary-color-dark: #2f251f;
     --secondary-color-dark: #2d2c2d;
@@ -114,9 +117,10 @@ list-style: none;
     grid-template-rows: auto;
     grid-template-columns: auto;
     background-color: var(--secondary-color-dark);
-    background: url("../images/students_09-cropped.jpg") no-repeat;
+    background: url("../images/students_09-cropped.jpg") no-repeat center center;
     color: var(--bright-text-color);
     height: 700px;
+    overflow: hidden;
 }
 
 #hero-section-content-container {
@@ -130,24 +134,24 @@ grid-template-rows: 600px;
 
     box-sizing: border-box;
     height: auto;
-    width: 75%;
-    background-color: rgba(45, 44, 45, 0.95);
+    width: 40%;
+    background-color: rgba(242, 221, 211, 0.9);
+    color: var(--dark-text-color);
     flex-direction: column;
     padding: 1.5em;
 
     justify-self: right;
-    align-self: end;
-    margin-bottom: 30px;
-    margin-right: 50px;
+    align-self: flex-end;
+    margin-left: 20px;
     
 }
 
 /* Style the elements in the overlay section */
 .hero-content-overlay h2 {
     font-weight: 200;
-    margin-bottom: 1em;
-    font-size: 64px;
-    line-height: 75px;
+    margin-bottom: 0.5em;
+    font-size: 56px;
+    line-height: 56px;
 }
 
 .reasons {
