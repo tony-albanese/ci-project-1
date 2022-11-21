@@ -6,11 +6,11 @@ This is the core style sheet.
 :root {
 
     /* Theme colors generated from hero image*/
---sapphire-blue: #086A97ff;
---platinum: #E7E7E8ff;
---chinese-red: #B02D10ff;
---champagne-pink: #F2DDD3ff;
---tumbleweed: #EDB287ff;
+    --sapphire-blue: #086A97ff;
+    --platinum: #E7E7E8ff;
+    --chinese-red: #B02D10ff;
+    --champagne-pink: #F2DDD3ff;
+    --tumbleweed: #EDB287ff;
 
     /* Colors for nav */
     --nav-background-color: #086A97ff;
@@ -64,7 +64,7 @@ body {
 
 
 /* Style the section */
-section{
+section {
     margin-bottom: 1.5em;
 }
 
@@ -86,6 +86,7 @@ header {
     align-items: center;
 
 }
+
 /* Style elements in nav bar. */
 
 nav a {
@@ -108,10 +109,11 @@ header h1 {
 .active {
     border-bottom: 2px solid var(--nav-border-color);
 }
+
 nav li {
-margin-left: 2em;
-margin-right: 1em;
-list-style: none;
+    margin-left: 2em;
+    margin-right: 1em;
+    list-style: none;
 }
 
 
@@ -128,13 +130,13 @@ list-style: none;
 }
 
 #hero-section-content-container {
-grid-template-columns: 100%;
-grid-template-rows: 600px;
+    grid-template-columns: 100%;
+    grid-template-rows: 600px;
 
 }
 
 /* Set the size and position of the overlay element. */
-.hero-content-overlay{
+.hero-content-overlay {
 
     box-sizing: border-box;
     height: auto;
@@ -148,7 +150,7 @@ grid-template-rows: 600px;
     align-self: flex-end;
     margin-left: 20px;
     margin-right: 20px;
-    
+
 }
 
 /* Style the elements in the overlay section */
@@ -181,13 +183,13 @@ grid-template-rows: 600px;
     background-color: var(--hero-action-button-color);
     padding: 5px;
 
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(233, 227, 227, 0.699);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(233, 227, 227, 0.699);
     border-radius: 8px;
     font-size: xx-large;
     align-self: center;
 
     text-decoration: none;
-   
+
 }
 
 
@@ -209,8 +211,8 @@ grid-template-rows: 600px;
 /* Style the cards for the exam content. */
 
 .cards-container {
-justify-content: space-evenly;
-flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 
@@ -219,16 +221,18 @@ flex-wrap: wrap;
     background-color: whitesmoke;
     box-shadow: 5px 5px 10px 1px #ABA7A7;
 }
+
 .exam-card-content {
     flex-direction: column;
     padding: 0.5em;
 }
+
 .exam-card-header {
     height: 100%;
     height: 150px;
     text-align: center;
-    padding-top: 33% ;
-    
+    padding-top: 33%;
+
 }
 
 .exam-card-header h3 {
@@ -273,48 +277,49 @@ footer li {
     font-weight: 100;
     margin-bottom: 0.5em;
 }
+
 footer a {
     color: white;
 }
 
-@media only screen and (max-width: 850px){
+@media only screen and (max-width: 850px) {
 
-    .hero-content-overlay{
+    .hero-content-overlay {
 
         width: auto;
         align-self: flex-end;
         justify-self: end;
         margin-left: 1em;
         margin-right: 1em;
-        
+
     }
-    
-.hero-content-overlay h2 {
-    font-weight: 200;
-    margin-bottom: 0.5em;
-    font-size: 24px;
-}
 
-.reasons {
+    .hero-content-overlay h2 {
+        font-weight: 200;
+        margin-bottom: 0.5em;
+        font-size: 24px;
+    }
 
-    line-height: 1.5em;
-}
+    .reasons {
 
-.reasons p {
-    margin-bottom: 1em;
-    font-size: 15px;
-    
-}
+        line-height: 1.5em;
+    }
 
-#action-button-anchor {
-    font-size: x-large;
-    width: 200px;
-    height: 65px;
-}
+    .reasons p {
+        margin-bottom: 1em;
+        font-size: 15px;
+
+    }
+
+    #action-button-anchor {
+        font-size: x-large;
+        width: 200px;
+        height: 65px;
+    }
 }
 
 /* Media query for small screens */
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
 
     header {
         justify-content: center;
@@ -329,12 +334,12 @@ footer a {
 
     nav ul {
         flex-direction: column;
-        
+
     }
 
     nav a {
         display: block;
-        width:  100%;
+        width: 100%;
         text-align: center;
         justify-content: center;
     }
@@ -347,6 +352,7 @@ footer a {
         flex-direction: column;
         align-items: center;
     }
+
     .exam-card-container {
         margin-bottom: 2em;
         margin-top: 1em;
@@ -360,38 +366,38 @@ footer a {
 
     /* Style the elements in the overlay section for mobile */
 
-    .hero-content-overlay{
+    .hero-content-overlay {
 
         width: auto;
         align-self: center;
         justify-self: center;
         margin-left: 2em;
-        
+
     }
-    
-.hero-content-overlay h2 {
-    font-weight: 200;
-    margin-bottom: 1em;
-    font-size: 32px;
-    
-}
 
-.reasons {
+    .hero-content-overlay h2 {
+        font-weight: 200;
+        margin-bottom: 1em;
+        font-size: 32px;
 
-    line-height: 3em;
-}
+    }
 
-.reasons p {
-    margin-bottom: 1em;
-    font-size: 16px;
-    font-weight: 200;
-}
+    .reasons {
+
+        line-height: 3em;
+    }
+
+    .reasons p {
+        margin-bottom: 1em;
+        font-size: 16px;
+        font-weight: 200;
+    }
 
 
-#action-button-anchor {
-   margin-top: 1.5em; 
-   font-size: 24px;
-}
+    #action-button-anchor {
+        margin-top: 1.5em;
+        font-size: 24px;
+    }
 
 }
 
@@ -413,6 +419,6 @@ footer a {
 
     #exam-section-headline {
         font-size: large;
-        
+
     }
 }
