@@ -58,3 +58,14 @@ Credit for new hero image.
 
 Color palette
 https://coolors.co/086a97-e7e7e8-b02d10-f2ddd3-edb287
+
+
+Credit for resource cards
+
+article image
+<a href="https://www.flaticon.com/free-icons/article" title="article icons">Article icons created by Freepik - Flaticon</a>
+video
+<a href="https://www.flaticon.com/free-icons/video" title="video icons">Video icons created by nawicon - Flaticon</a>
+
+presentation/tutorial
+<a href="https://www.flaticon.com/free-icons/tutorial" title="tutorial icons">Tutorial icons created by Freepik - Flaticon</a>
