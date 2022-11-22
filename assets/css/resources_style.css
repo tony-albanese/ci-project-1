@@ -27,6 +27,7 @@
     flex-direction: column;
 }
 
+/* Style declarations for all cards. */
 .resource-card-container:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
@@ -68,7 +69,7 @@
     padding: 1em;
 }
 
-
+/* Declarations for article type resources. */
 .article-resource {
     background-color: var(--article-resource-color);
 }
@@ -80,6 +81,11 @@
     background-repeat: no-repeat;
 }
 
+
+/* Styles for the tutorial type resource. */
+
+
+/* Styling the button. */
 .resource-button {
     justify-self: center;
     display: grid;
