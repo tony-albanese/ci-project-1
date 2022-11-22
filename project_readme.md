@@ -156,9 +156,10 @@ The project was started by navigating to the [template](https://github.com/Code-
 Describe gitpod...
 
 ### Using Github Pages
-1. Navigate to the GitHub [Repository:](https://github.com/)
+1. Navigate to the GitHub [Repository:](https://github.com/tony-albanese/ci-project-1)
 1. Click the 'Settings' Tab.
-1. Scroll Down to the Git Hub Pages Heading.
+1. Scroll Down to the Git Hub Pages on the left panel.
+1. Select Deploy from a Branch
 1. Select 'Master Branch' as the source.
 1. Click the Save button.
 1. Click on the link to go to the live deployed page.
@@ -178,16 +179,3 @@ The images used on the both the exam structure page and the resources page came 
 The ideas for a material card design were based on this article by Abbey Fitzgeralnd on her [blog](https://getflywheel.com/layout/flexbox-create-modern-card-design-layout/)
 <br>
 The CSS code to make the hover animation effect on the cards in the resources page was taken from this [codepen](https://codepen.io/sdthornton/pen/wBZdXq)
-
-
-<!-- 
-Better would also be a section on UX/UI.
-The sections here should be:
-Site Goals
-Technologies used
-Design choices
-User stories
-Wireframes
-Database structure(PP3, PP4, PP5)
-Anything else you want to add that relates to UX/UI
--->
