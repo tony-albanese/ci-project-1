@@ -15,6 +15,7 @@
     --tutorial-resource-color: #edb4b9;
     --resource-button-color:#086A97ff;
     --video-resource-color: rgba(51, 101, 138, 0.4);
+    --summary-resource-color: #fcc24c;
 }
 
 .resource-card-container{
@@ -103,6 +104,18 @@
 
 .video-background {
     background-image: url("../images/video.webp") ;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Styles for summary type resources. */
+.summary-resource {
+    background-color: var(--summary-resource-color);
+}
+
+.summary-background {
+    background-image: url("../images/summary-one.webp") ;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
