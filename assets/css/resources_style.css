@@ -12,7 +12,8 @@
     /* These are to color elements only found on the resources.html page. */
 
     --article-resource-color: #d9d3e4;
-    --resource-button-color:#086A97ff ;
+    --tutorial-resource-color: #edb4b9;
+    --resource-button-color:#086A97ff;
 }
 
 .resource-card-container{
@@ -66,6 +67,7 @@
 
     padding: 1em;
 }
+
 
 .article-resource {
     background-color: var(--article-resource-color);
