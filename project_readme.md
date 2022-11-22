@@ -89,8 +89,8 @@ Screenshot image of the feature
     > Have trust in the websites and feel safe using it
 
 - __Images__
-    - Images were chosen to have gentle, pleasing colors that are not distacting and yet coordinated.
-    - Images were chosen to relate to the content they are placed with. 
+    Images were chosen to have gentle, pleasing colors that are not distacting and yet coordinated.
+    Images were chosen to relate to the content they are placed with. 
     
     #### Landing Page Images
     An illustration of happy students was used as the hero image in order to project what the website is ultimately trying to acheive, happy students.
@@ -105,7 +105,7 @@ Screenshot image of the feature
     + An illustration of a director's scene cutter with the play button was used for image resources.
     + An illustration of a report was used for summary type resources since reports imply summaries.
 
->Have pleasing overall visual experience with a color scheme that is consistent and easy to read.
+    >Have pleasing overall visual experience with a color scheme that is consistent and easy to read.
 - __Responsive Design__
 
 ### Features left to implement
@@ -116,10 +116,27 @@ Without JavaScript, the site is necessarily static. the following features would
 * A rating system for users to rate the quality of the resources. 
 ## Testing
 <!--A section on testing different screen sizes would be appropriate. -->
+All Pages were run through the [W3C HTML Validator](https://validator.w3.org/) and showed no errors.<br>
+CSS Stylesheet was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) and showed no errors.<br>
+Website was tested by running locally and tested on the deployed version. No differences found.
 ### Validator Testing
+All three pages passed the CSS v
 ### Unfixed Bugs
 
 ## Deployment
+
+### Project Creation
+The project was started by navigating to the [template](https://github.com/Code-Institute-Org/gitpod-full-template) and clicking 'Use this template'. Under Repository name I input XXXXXXX. I then navigated to the new [repository](https://github.com/XXXXXXXX. I then clicked the Code drop down and selected HTTPS and copied the link to the clipboard.
+
+Describe gitpod...
+
+### Using Github Pages
+1. Navigate to the GitHub [Repository:](https://github.com/)
+1. Click the 'Settings' Tab.
+1. Scroll Down to the Git Hub Pages Heading.
+1. Select 'Master Branch' as the source.
+1. Click the Save button.
+1. Click on the link to go to the live deployed page.
 
 ## Credits
 w3schools for info on layout ideas
