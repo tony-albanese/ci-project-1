@@ -73,6 +73,10 @@
     padding: 1em;
 }
 
+.resource-description p {
+    background-color: rgba(255,255,255,0.6);
+}
+
 /* Declarations for article type resources. */
 .article-resource {
     background-color: var(--article-resource-color);
