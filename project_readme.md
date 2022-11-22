@@ -104,8 +104,16 @@ Screenshot image of the feature
     + An illustration of a presenter was used for tutorial resources since this implies instruction.
     + An illustration of a director's scene cutter with the play button was used for image resources.
     + An illustration of a report was used for summary type resources since reports imply summaries.
-### Features left to implement
 
+>Have pleasing overall visual experience with a color scheme that is consistent and easy to read.
+- __Responsive Design__
+
+### Features left to implement
+Without JavaScript, the site is necessarily static. the following features would be benefecial to add:
+* A sidebar on the exam structure page would be useful to navigate through the sections and to let users know their location on the page.
+* An About page to display the author's qualifications. This would increase trust in the site's content.
+* A timed sample exam to let students know what they can experience. The sample exam responses could be sent to their teachers for commentary.
+* A rating system for users to rate the quality of the resources. 
 ## Testing
 <!--A section on testing different screen sizes would be appropriate. -->
 ### Validator Testing
@@ -118,6 +126,8 @@ w3schools for info on layout ideas
 CSS Grid and Flexbox
 Scribna for design principles
 Any image creating software, Canva, etc
+Meteral Card
+Drop shadow
 ### Content
 ### Media
 
