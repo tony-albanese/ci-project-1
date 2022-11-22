@@ -154,9 +154,7 @@ CSS Stylesheet was run through the [W3C CSS Validator](https://jigsaw.w3.org/css
 ## Deployment
 
 ### Project Creation
-The project was started by navigating to the [template](https://github.com/Code-Institute-Org/gitpod-full-template) and clicking 'Use this template'. Under Repository name I input XXXXXXX. I then navigated to the new [repository](https://github.com/XXXXXXXX. I then clicked the Code drop down and selected HTTPS and copied the link to the clipboard.
-
-Describe gitpod...
+The project was started by navigating to the [template] and clicking 'Use this template'. Under Repository name I input ci-project-1. I then navigated to the new [repository](https://github.com/tony-albanese/ci-project-1). I then clicked on the GitPod button which set up a GitPod workspace.
 
 ### Using Github Pages
 1. Navigate to the GitHub [Repository:](https://github.com/tony-albanese/ci-project-1)
