@@ -15,7 +15,7 @@ There is really only one website that is dedicated to DP Computer Science Paper 
 ## Exam Hacker
 Exam Hacker addresses this gap in study resources and provides students a single resource to help them achieve their best on this particular exam while teachers can use the site to get resources to help them understand what to teach and how to teach it.
 
-## Target market
+## Target User Group
 
 This website is for both teachers and students of the International Baccalaureate's Diploma Programme Higher Level Computer Science course.
 
@@ -39,15 +39,9 @@ As a user, I want to:
 * Have trust in the websites and feel safe using it
 
 ## Features
-<!-- 
-Feature name
-A description about the feature and
-how it works
-Screenshot image of the feature
--->´
+
 ### Existing Features
 
-<!--Maybe add color scheme as a feature.-->
 - __Navigation Bar__
     - This navigation bar, located at the top of the page, contains links to the Home, Paper 3 Structure, Resource Gallery, and About pages. The bar is fully responsive. On larger screens, the elements are displayed horizontally. On smaller screens, they are arranged vertically.
     - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
