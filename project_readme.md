@@ -4,26 +4,26 @@ The following are the MINIMUM sections needed in the README.
 # Milestone Project 1
 
 ## Purpose
-This website is for students enrolled in the International Baccalaureat's Computer Science program who wish to master the third examination paper which focuses on a case study. Although the strucure of the exam remains unchanged, the questions change each year with a new case study. Therefore, students cannot rely on past papers to help them learn content. They must understand how the paper is strucutred and be able to anticiapte what might be asked of them in order to be well prepared.
+This website is for students enrolled in the International Baccalaureat's Computer Science program who wish to master the third examination paper (Paper 3). Paper 3 focuses on a case study which changes each year. Teachers and students receive the case study at the same time. Although the strucure of the exam remains unchanged, the questions change each year with the new case study. Therefore, students cannot rely on past papers to help them learn content, and neither can teachers rely on previous years' content to teach their lesson. They must understand how the paper is strucutred and be able to anticiapte what might be asked of them in order to be well prepared.  
 
-There are currently limited resources avaialble for students. There are a few YouTube videos that address the content, but none that I have found that address the structure of the paper. Nor do any of these resources address how students can frame their responses to maximize their marks.
+Although the case study provides key terms and introduces key concepts, this is done in a most superficial way. In order to prepare for the exams, students are expected to do quite a bit of independant research. That also means teachers must also research in order to teach the content properly.
 
-There is really only one website that is dedicated to DP Computer Science Paper 3 - [IB CompSci-Hub](https://ib.compscihub.net/paper3).  The only thing available is a generic description of the what the paper is about.
+There are currently limited resources avaialble for students and teachers. There are a YouTube videos and tutorials that address the content, but none that I have found that address the structure of Paper 3. Nor do any of these resources address how students can frame their responses to maximize their marks. What ends up happening is teachers and students end up scouring the internet for resources, some are good and some not so good.
 
-Finally, the paper requires students to do much research in preparation. Students have complained that they must spend a lot of time searching through the internet to find material. Although some individual research is expected, students have several subjects to study for and a curated list of revision sources would be helpful.
+There is really only one website that is dedicated to DP Computer Science Paper 3 - [IB CompSci-Hub](https://ib.compscihub.net/paper3).  The only thing available is a generic description of the what the paper is about. Another site found [ibcomputerscience.xyz](https://ibcomputerscience.xyz/ib-hl-paper3-case-study-2022-genetic-algorithms/) has the exam for May 2022 and is out of date. The site is poorly organized and extremely frustrating to navigate.
 
-The teachers of this course are also included. The case study is made known to them as the same time as the students. Therefore, teachers could also use this website to save precious time in looking for resources for their students. 
-## Paper Hacker
-Paper Hacker addresses this gap in study resources and provides students a single resource to help them achieve their best on this particular exam while teachers can use the site to get resources to help them understand what to teach and how to teach it.
+## Exam Hacker
+Exam Hacker addresses this gap in study resources and provides students a single resource to help them achieve their best on this particular exam while teachers can use the site to get resources to help them understand what to teach and how to teach it.
 
 ## Target market
 
-This website is for both teachers and students of the International Baccalaureate's Diploma Programme Computer Science course.
+This website is for both teachers and students of the International Baccalaureate's Diploma Programme Higher Level Computer Science course.
 
 ## UX Design
 
 ### User Stories
-A User is a student or a teacher in the IB Diploma Programme Computer Science course.
+A User is a student or a teacher in the IB Diploma Programme Higher Level Computer Science course. Although these users have two different roles, their stories are the same.  
+
 As a user, I want to:
 * Understand the purpose of the site from the landing page.
 * Have a well-organized summary of all the Computer Science exams
