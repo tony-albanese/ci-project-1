@@ -61,10 +61,12 @@ Screenshot image of the feature
     > Have a well-organized summary of all the Computer Science exams
 
 - __Exam Structure Page__
-
+    - This focuses on the structure of Paper 3. There is a section for each of the questions. The content in each section is consistently organized into three color coded areas: one for a description of the questions, one for how to respond, and one for example questions.
+    > Have an overview of how the Paper 3 Questions are structured
+    > Have some example questions to reinforce content
 
 - __Resources Page__
-
+    - 
 -__Color Scheme__
 
 -__Material Card__
