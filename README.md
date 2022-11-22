@@ -36,7 +36,7 @@ There are currently limited resources avaialble for students and teachers. There
 There is really only one website that is dedicated to DP Computer Science Paper 3 - [IB CompSci-Hub](https://ib.compscihub.net/paper3).  The only thing available is a generic description of the what the paper is about. Another site found [ibcomputerscience.xyz](https://ibcomputerscience.xyz/ib-hl-paper3-case-study-2022-genetic-algorithms/) has the exam for May 2022 and is out of date. The site is poorly organized and extremely frustrating to navigate.
 
 ## Exam Hacker
-Exam Hacker addresses this gap in study resources and provides students a single resource to help them achieve their best on this particular exam while teachers can use the site to get resources to help them understand what to teach and how to teach it.
+Exam Hacker addresses this gap in study resources and provides students a single resource to help them achieve their best on this particular exam while teachers can use the site to get resources to help them understand what to teach and how to teach it. The site is found here: [Exam Hacker](https://tony-albanese.github.io/ci-project-1/)
 
 ## Target User Group
 
