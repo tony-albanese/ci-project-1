@@ -49,6 +49,21 @@ Screenshot image of the feature
     - This navigation bar, located at the top of the page, contains links to the Home, Paper 3 Structure, Resource Gallery, and About pages. The bar is fully responsive and will be identical in style and location on each page in the site.
     - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
+- __Landing Page__
+
+
+- __Exam Structure Page__
+
+- __Resources Page__
+
+-__Color Scheme__
+
+-__Material Card__
+
+-__Images__
+
+-__Footer__
+
 - __Image__
     - The image will be a cartoon showing students studying. The hero image contains colors to match the overall theme of the website.
 
