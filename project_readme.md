@@ -1,14 +1,24 @@
 <!-- 
 The following are the MINIMUM sections needed in the README.
 -->
-# Paper 3 Master
-This website is for students enrolled in the International Baccalaureat's Computer Science program who wish to master the third examination paper which focuses on a case study. Although the strucure of the exam remains unchanged, the questions change each year with a new case study. Therefore students cannot rely on past papers to help them leanr content. They must understand how the paper is strucutred and be able to anticiapte what might be asked of them in order to be well prepared.
+# Milestone Project 1
+
+## Purpose
+This website is for students enrolled in the International Baccalaureat's Computer Science program who wish to master the third examination paper which focuses on a case study. Although the strucure of the exam remains unchanged, the questions change each year with a new case study. Therefore, students cannot rely on past papers to help them learn content. They must understand how the paper is strucutred and be able to anticiapte what might be asked of them in order to be well prepared.
 
 There are currently limited resources avaialble for students. There are a few YouTube videos that address the content, but none that I have found that address the structure of the paper. Nor do any of these resources address how students can frame their responses to maximize their marks.
 
-There is really only one website that is dedicated to DP Computer Science Paper 3 - [IB CompSci-Hub](https://ib.compscihub.net/paper3).  The only thing available is a generic description of the text.
+There is really only one website that is dedicated to DP Computer Science Paper 3 - [IB CompSci-Hub](https://ib.compscihub.net/paper3).  The only thing available is a generic description of the what the paper is about.
 
-Paper 3 Master addresses this gap and provides students a single resource to help them achieve their best on this exam.
+Finally, the paper requires students to do much research in preparation. Students have complained that they must spend a lot of time searching through the internet to find material. Although some individual research is expected, students have several subjects to study for and a curated list of revision sources would be helpful.
+
+The teachers of this course are also included. The case study is made known to them as the same time as the students. Therefore, teachers could also use this website to save precious time in looking for resources for their students. 
+## Paper Hacker
+Paper Hacker addresses this gap in study resources and provides students a single resource to help them achieve their best on this particular exam while teachers can use the site to get resources to help them understand what to teach and how to teach it.
+
+### Target market
+
+This website is for both teachers and students of the International Baccalaureate's Diploma Programme Computer Science course.
 
 ## Features
 <!-- 
