@@ -83,7 +83,16 @@
 
 
 /* Styles for the tutorial type resource. */
+.tutorial-resource {
+    background-color: var(--tutorial-resource-color);
+}
 
+.tutorial-background {
+    background-image: url("../images/tutorial.webp") ;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
 /* Styling the button. */
 .resource-button {
