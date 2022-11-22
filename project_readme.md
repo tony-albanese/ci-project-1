@@ -26,6 +26,9 @@ This website is for both teachers and students of the International Baccalaureat
 A User is a student or a teacher in the IB Diploma Programme Computer Science course.
 As a user, I want to:
 * Understand the purpose of the site from the landing page.
+* Have a well-organized summary of all the Computer Science exams
+* Have an overview of how the Paper 3 Questions are structured
+* Have some example questions to reinforce content
 * Easily navigate throughout the site
 * Access the material on a mobile screen, a tablet screen, or a larger screen.
 * Have an organized overview of resources whose structure is easily perceived
@@ -46,13 +49,19 @@ Screenshot image of the feature
 
 <!--Maybe add color scheme as a feature.-->
 - __Navigation Bar__
-    - This navigation bar, located at the top of the page, contains links to the Home, Paper 3 Structure, Resource Gallery, and About pages. The bar is fully responsive and will be identical in style and location on each page in the site.
-    - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+    - This navigation bar, located at the top of the page, contains links to the Home, Paper 3 Structure, Resource Gallery, and About pages. The bar is fully responsive. On larger screens, the elements are displayed horizontally. On smaller screens, they are arranged vertically.
+    - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+    > Easily navigate throughout the site
 
-- __Landing Page__
-
+- __Landing Page Structure__
+    - The landing page features a large hero image showing an illustration of happy young people. There is a overlay in a position of prominence that explains what the site is about.
+    - The overlay has a call to action button that will take users directly to the exam structure page.
+    > Understand the purpose of the site from the landing page.
+    - The landing page also has a section which summarizes information on the three exams. Each summary is formatted as a material card.
+    > Have a well-organized summary of all the Computer Science exams
 
 - __Exam Structure Page__
+
 
 - __Resources Page__
 
