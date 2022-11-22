@@ -147,6 +147,13 @@ Without JavaScript, the site is necessarily static. the following features would
 * A rating system for users to rate the quality of the resources. 
 ## Testing
 
+### Development Testing
+
+### High Level Testing
+High level testing was performed. The accuracy of links and navigation was tested for proper functionality. Website layout responsiveness was tested on the Chrome, Firefox, Opera, and Safari web browsers running on laptops. The website was also tested on a real Android device (Motorola G6+). The testing performed can be found in the following document whose size prevents clear reading here.
+
+[Testing Table pdf](assets/documents/Project%201%20Test%20Cases.pdf)
+
 ### Validator Testing
 All Pages were run through the [W3C HTML Validator](https://validator.w3.org/) and showed no errors.  
 CSS Stylesheet was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) and showed no errors.  
@@ -161,7 +168,7 @@ The project was started by navigating to the [template] and clicking 'Use this t
 1. Click the 'Settings' Tab.
 1. Scroll Down to the Git Hub Pages on the left panel.
 1. Select Deploy from a Branch
-1. Select 'Master Branch' as the source.
+1. Select 'main' as the source.
 1. Click the Save button.
 1. Click on the link to go to the live deployed page.
 
