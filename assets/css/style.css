@@ -282,19 +282,23 @@ footer a {
 }
 
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 2600px) {
 
-    /* Set the size and position of the overlay element. */
+    .resource-section-header {
+        font-size: 48px;
+       
+    }
+    /* /* Set the size and position of the overlay element.  */
     .hero-content-overlay {
         width: 60%;
     }
-
+ 
 }
 
 
 @media only screen and (max-width: 1024px) {
     .hero-content-overlay {
-        width: 100%;
+        width: 95%;
 
         justify-self: center;
         align-self: flex-end;
@@ -306,6 +310,7 @@ footer a {
 
 @media only screen and (max-width: 768px){
 
+   
     h1 {
         font-size: 32px;
         margin-bottom: 1.5em;
@@ -367,5 +372,10 @@ footer a {
         height: 65px;
         margin-top: 1.5em;
         font-size: 18px;
+    }
+
+    .resource-section-header {
+        font-size: 24px;
+   
     }
 }
