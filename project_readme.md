@@ -124,6 +124,9 @@ As a user, I want to:
     * The site uses HTML5 to structure the page elements.
 * CSS
     * The site uses pure CSS3 to style the HTML elements. No libraries were used.
+* [GitPod](https://www.gitpod.io/)
+    * Gitpod is a workspace that is closely integrated with GitHub. I used the IDE in their workspace (which is a version of VS Code) to code the project and 
+    push commits to GitHub.
 * [GIMP](https://www.gimp.org/)
     * GNU Image Manipulator Program. This powerful image editor was used to crop, scale, and adjust opacity of images.
 * [Google Fonts](https://fonts.google.com/knowledge)
