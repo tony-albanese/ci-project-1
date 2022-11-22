@@ -34,9 +34,8 @@ As a user, I want to:
 * Have an organized overview of resources whose structure is easily perceived
 * Have a variety of different types of resources available
 * Have a short summary of the resources available to help decide if it is what I need
-
-
-
+* Easily distinguish between resource types
+* Have pleasing overall visual experience with a color scheme that is consistent and easy to read.
 
 ## Features
 <!-- 
@@ -66,8 +65,14 @@ Screenshot image of the feature
     > Have some example questions to reinforce content
 
 - __Resources Page__
-    - 
+    - The resources page contain a curated list of resources to help students prepare for Paper 3. Resources include videos, articles, summaries, and tutorials. Articles are longer pieces of text. Summaries present content in less depth. Tutorials focus on implementing a particular feature with code. Some resources are a mixture of these, and I made a best-fit judgement to fit them into just one category.
+    > Have a variety of different types of resources available
+    - Each resource is presented on a Material Card. The card contains a title, the type of resource, a description, and a button which links to the resource. The resources all open in a new broweser tab.
+    > Have a short summary of the resources available to help decide if it is what I need
+    - Each card is color coded by resource type. There is a cartoon representing each resource type in the description area of the card. 
+    > Easily distinguish between resource types
 -__Color Scheme__
+    - The color 
 
 -__Material Card__
 
