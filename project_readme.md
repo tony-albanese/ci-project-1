@@ -30,7 +30,7 @@ As a user, I want to:
 * Have an overview of how the Paper 3 Questions are structured
 * Have some example questions to reinforce content
 * Easily navigate throughout the site
-* Access the material on a mobile screen, a tablet screen, or a larger screen.
+* Access the material on a mobile screen, a tablet screen, or a larger screen with equivalent ease.
 * Have an organized overview of resources whose structure is easily perceived
 * Have a variety of different types of resources available
 * Have a short summary of the resources available to help decide if it is what I need
@@ -107,6 +107,10 @@ Screenshot image of the feature
 
     >Have pleasing overall visual experience with a color scheme that is consistent and easy to read.
 - __Responsive Design__
+    - To keep the layout responsive, CSS Flexbox and CSS Grid layouts were used to layout more complicated elements such as the material cards or the exam
+    structure section.
+    - CSS media queries were used to adjust for the most common screen size breakpoints. The breakpoints used are: 425px, 768px, 1024px, and 2600px
+    > Access the material on a mobile screen, a tablet screen, or a larger screen with equivalent ease.
 
 ### Technology Used ###
 HTML
