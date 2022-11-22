@@ -5,30 +5,48 @@ This is the core style sheet.
 /* Declare variables for the stylesheet.*/
 :root {
 
-   --primary-color-dark: #0000ff;
-   --secondary-color-dark: #002db3;
-   --primary-accent: #bfcfff;
-   --secondary-accent: #809fff;
+    /* Theme colors generated from hero image*/
+    --sapphire-blue: #086A97ff;
+    --platinum: #E7E7E8ff;
+    --chinese-red: #B02D10ff;
+    --champagne-pink: #F2DDD3ff;
+    --tumbleweed: #EDB287ff;
 
-   --card-background-color: aliceblue; 
-    --text-color: #3a3a3a;
-    --debug-color: #fafa00;
+    /* Colors for nav */
+    --nav-background-color: #086A97ff;
+    --nav-text-color: #E7E7E8ff;
+    --nav-border-color: #EDB287ff;
 
-    --main-theme-color: rgb(13, 193, 253);
-
-  
-
+    /* Text colors */
     --bright-text-color: white;
+    --normal-text-color: #3a3a3a;
+    --dark-text-color: black;
+    --accent-text-color: #F2DDD3ff;
+
+    /* Colors for hero section */
+    --hero-text-overlay: #F2DDD3ff;
+    --hero-action-button-color: #B02D10ff;
+    --hero-action-button-text-color: #E7E7E8ff;
 
 
+    /* Colors for footer section */
+    --footer-background-color: #086A97ff;
+    /* Theme colors */
+    --primary-color-dark: #2f251f;
+    --secondary-color-dark: #2d2c2d;
+    --tertiary-color-dark: #7b8251;
+    --primary-accent: #bfcfff;
+    --secondary-accent: #f4f4f4;
+    --tertiary-accent: #d5d4d2;
 
-    --footer-background-color: grey;
+    /* Material design element colors */
+    --card-media-color: #B7ABA5;
+    --card-background-color: #E3E4E6;
 
 }
 
 /* Import the fonts. */
-@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Nunito+Sans:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Nunito+Sans:wght@200;300&family=Quicksand:wght@300;400;600&display=swap');
 
 
 /* Start by setting the style for the whole document. This ensures the entire screen is used.*/
@@ -38,176 +56,316 @@ This is the core style sheet.
     border: none;
 }
 
-/* Set the body background */
-body{
-    background-color: white;
-    font-family: 'Nunito Sans', sans-serif;
-    line-height: 1.5;
-    color: var(--text-color);
+body {
+    color: var(--normal-text-color);
+    font-family: 'Heebo', sans-serif;
+    line-height: 1.5em;
 }
 
-/* 
-Style the header.
-*/
+
+/* Style the section */
+section {
+    margin-bottom: 1.5em;
+}
+
+/* Make every element with this class a flex container */
+.flex-container {
+    display: flex;
+}
+
+/* Make every element with this class a grid container. */
+.grid-container {
+    display: grid;
+}
+
+/* Layout the elements in the nav bar. */
 header {
-   height: 150px;
-   background-color: var(--primary-color-dark);
+    justify-content: space-between;
+    background-color: var(--nav-background-color);
+    min-height: 75px;
+    align-items: center;
+
 }
 
-#logo-image {
-    float: left;
-    height: 150px;
- 
-}
-/* 
-Style the list in the nav bar.
- */
+/* Style elements in nav bar. */
 
- nav {
-    font-size: 120%;
-    line-height: 150px;
- }
-
- #logo-text {
-    float: left;
-    line-height: 75px;
-    color: var(--primary-accent);
-    background-color: var(--primary-color-dark);
- }
-
- nav ul {
-    float: right;
- }
-
- nav li {
-    float: left;
-    list-style-type: none;
-    margin-right: 40px;
- }
-
- nav a {
+nav a {
     text-decoration: none;
-    color:var(--primary-accent) ;
- }
+    color: var(--bright-text-color);
+    font-size: x-large;
+}
 
- section {
-    clear: both;
- }
+header h1 {
+    font-weight: 300;
+    margin-left: 5px;
+    color: var(--bright-text-color);
+}
+
+#menu a:hover {
+    border-bottom: 2px solid var(--nav-border-color);
+}
+
+.active {
+    border-bottom: 2px solid var(--nav-border-color);
+}
+
+nav li {
+    margin-left: 2em;
+    margin-right: 1em;
+    list-style: none;
+}
 
 
+/* Style the hero section */
 
- /* Format the hero image section. */
- #hero-section {
-    height: 600px;
-    width: 100%;
-    overflow: hidden; 
-    background: url("https://picsum.photos/2600/675") no-repeat center center;
+#hero-section {
+    grid-template-rows: auto;
+    grid-template-columns: auto;
     background-color: var(--secondary-color-dark);
-    text-align: left;
-   
- }
+    background: url("../images/students_09-cropped.jpg") no-repeat center center;
+    color: var(--bright-text-color);
+    height: 700px;
+    overflow: hidden;
+}
 
+#hero-section-content-container {
+    grid-template-columns: 100%;
+    grid-template-rows: 600px;
 
+}
 
- #hero-main-text {
-   margin-top: 32px;
-   margin-left: 15%;
-   margin-right: 5%;
-   width: 70%;
-   /* background-color: blueviolet; */
-   color: var(--primary-accent);
-   
- }
+/* Set the size and position of the overlay element. */
+.hero-content-overlay {
 
- #hero-main-text h1 {
-   font-size: 64px;
-   margin: 16px;
-   font-weight: 400;
- }
+    box-sizing: border-box;
+    height: auto;
+    width: 40%;
+    background-color: rgba(242, 221, 211, 0.9);
+    color: var(--dark-text-color);
+    flex-direction: column;
+    padding: 1.5em;
 
- .reasons p {
-font-size: 24px;
-font-family: Heebo, sans-serif;
-margin-left: 16px;
- }
- /* 
- This class delcaration is for development purposes only.
- */
+    justify-self: right;
+    align-self: flex-end;
+    margin-left: 20px;
+    margin-right: 20px;
 
- .current-dev-section {
+}
+
+/* Style the elements in the overlay section */
+.hero-content-overlay h2 {
+    font-weight: 200;
+    margin-bottom: 0.5em;
+    font-size: 56px;
+    line-height: 56px;
+}
+
+.reasons {
+    margin-left: 1em;
+    align-self: center;
+    line-height: 3em;
+}
+
+.reasons p {
+    margin-bottom: 1em;
+    font-size: 28px;
+    font-weight: 200;
+}
+
+#action-button-anchor {
+    display: grid;
+    justify-content: center;
+    align-content: center;
     height: 75px;
-    background-color:var(--debug-color);
- }
+    width: 300px;
+    color: var(--hero-action-button-text-color);
+    background-color: var(--hero-action-button-color);
+    padding: 5px;
 
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(233, 227, 227, 0.699);
+    border-radius: 8px;
+    font-size: xx-large;
+    align-self: center;
 
- #exam-section {
-   padding-top: 50px;
-   padding-bottom: 50px;
-   margin-left: 32px;
-   margin-right: 32px;
-
- }
-
- #exam-section >h1 {
-   text-align: center;
-   font-size: 56px;
-   color: var(--secondary-color-dark);
- }
-  /* Style exam card elements in the content section */
-
-  .cards-container {
-   display: flex;
-   justify-content: space-between;
-  }
-
- .exam-card-container {
-
-   width: 30%;
-   float: left;
-   text-align: center;
-   min-height: 230px;
-   box-sizing: border-box;
-   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
- background-color: var(--card-background-color);
-   text-align: left;
-   font-size: 24px;
- }
-
-
-.exam-card-content p {
-   
-   margin-left: 16px;
-   margin-right: 16px;
-   margin-top: 8px;
+    text-decoration: none;
 
 }
 
-.exam-card-content h1 {
-   font-size: 36px;
-   padding-left: 8px;
-   color: var(--primary-accent);
-   background-color: var(--secondary-color-dark);
+
+
+/* Style the header in the exam section */
+#exam-section-headline {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: xxx-large;
+    color: var(--primary-color-dark);
+    letter-spacing: 4px;
+    white-space: nowrap;
+}
+
+/* Style the cards for the exam content. */
+
+.cards-container {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.exam-card-container {
+    width: 300px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px 1px #ABA7A7;
+}
+
+.exam-card-content {
+    flex-direction: column;
+    padding: 0.5em;
+}
+
+.exam-card-header {
+    height: 100%;
+    height: 150px;
+    text-align: center;
+    padding-top: 33%;
 
 }
 
-.exam-image {
-text-align: center;
-margin-top: 8px;
-width: 200px;
-height: 200px;
+.exam-card-header h3 {
+    font-weight: 100;
+    font-size: 48px;
 }
-.exam-description {
-   text-align: justify;
-   font-size: 20px;
+
+.exam-data {
+    background-color: var(--card-background-color);
+    padding: 0.5em;
 }
+
+#paper1-header {
+    background-color: #fbffd5;
+}
+
+#paper2-header {
+    background-color: #eafff4;
+}
+
+#paper3-header {
+    background-color: #ede5ff;
+}
+
+/* Style the footer */
 
 footer {
-   padding: 16px;
-   background-color: var(--secondary-color-dark);
-   color: var(--secondary-accent);
-   
+    background-color: var(--footer-background-color);
+    color: white;
+    padding: 1em;
+
+}
+
+footer h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 200;
+    margin-bottom: 1em;
 }
 
 footer li {
-   list-style: none;
+    list-style-type: none;
+    font-weight: 100;
+    margin-bottom: 0.5em;
+}
+
+footer a {
+    color: white;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    /* Set the size and position of the overlay element. */
+    .hero-content-overlay {
+        width: 60%;
+    }
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .hero-content-overlay {
+        width: 100%;
+
+        justify-self: center;
+        align-self: flex-end;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+
+    h1 {
+        font-size: 32px;
+        margin-bottom: 1.5em;
+        margin-top: 1em;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    header {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+
+    }
+
+    nav a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    nav li {
+        margin-bottom: 1.5em;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .exam-card-container {
+        margin-bottom: 2em;
+        margin-top: 1em;
+    }
+
+    #exam-section-headline {
+        font-size: x-large;
+        letter-spacing: 2px;
+    }
+
+    .hero-content-overlay h2 {
+        font-size: 24px;
+    }
+    .reasons {
+
+        line-height: 3em;
+    }
+    .reasons p {
+        margin-bottom: 0.5em;
+        font-size: 16px;
+        font-weight: 100;
+    }
+    #action-button-anchor {
+        width: 250px;
+        height: 65px;
+        margin-top: 1.5em;
+        font-size: 18px;
+    }
 }

@@ -12,57 +12,63 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>Exam Prep</title>
+    <title>Hack the Exam</title>
 </head>
 
 
 <body>
 
-
-    <header>
-        <img id="logo-image" src="assets/images/exam-prep-low-resolution-color-logo.png" alt="Logo image for exam prep.">
-        <nav id="menu">
-            <ul>
-                <li><a href="index.html">Home</a></li>
+    <header class="flex-container">
+        <h1>Hack the Exam</h1>
+        <nav id="menu" class="flex-container">
+            <ul class="flex-container">
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="structure.html">Exam Structure</a></li>
-                <li><a href="#">Resource Gallery</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="resources.html">Resource Gallery</a></li>
             </ul>
         </nav>
     </header>
 
-
-
-
     <section id="hero-section">
-        <div id="hero-main-text">
-            <h1>Master the Exam</h1>
-            <div class="reasons">
+        
+        <div id="hero-section-content-container" class="grid-container">
 
-                <p>You need to do more than just read the packet.</p>
-                <p>You need to do more than just memorize the terms.</p>
-                <p>You need to understand how the exam is put together so you can defeat it.</p>
+            <div class="hero-content-overlay flex-container">
+
+                <h2 id="hero-header">Master the Exam</h2>
+
+                <div class="reasons">
+                    <p>Mastering a test is more than just memorizing a bunch of facts. Knowing how the exam is
+                        strucutred and what the examiners are expecting from you
+                        is crucial.
+                    </p>
+                </div>
+
+                <a href="structure.html" id="action-button-anchor">Show me how!</a>
             </div>
+
         </div>
     </section>
 
-
     <section id="exam-section">
-        <h1 id="exam-section-headline">2023 Exams at a glance.</h1>
+        <h2 id="exam-section-headline">2023 Exams at a glance.</h2>
 
-        <div class="cards-container">
+        <div class="cards-container flex-container">
 
             <div class="exam-card-container">
-                <div class="exam-card-content">
-                    <h1>Paper 1</h1>
-                    <div class="exam-image">
-                        <img src="assets/images/brain.svg" alt="An image representing the mind.">
-                    </div>
+                <div class="exam-card-content flex-container">
 
+                    <div class="exam-card-header" id="paper1-header">
+                           <h3>Paper 1</h3> 
+                    </div>
+                
+                    <div class="exam-data">
                     <p><i class="fa-regular fa-calendar"></i> Date: May 5th, 2023</p>
                     <p><i class="fa-regular fa-square-check"></i> Marks: 100</p>
                     <p><i class="fa-regular fa-clock"></i> Duration: 130 minutes</p>
                     <p><i class="fa-solid fa-scale-unbalanced-flip"></i> Weighting: 40%</p>
+                    </div>
+
                     <p class="exam-description">Consists of written response questions in two mandatory sections.
                         Questions tend to integrate several topics. Usually ends with algorithm problems involving
                         pseudocode.</p>
@@ -70,32 +76,36 @@
             </div>
 
             <div class="exam-card-container">
-                <div class="exam-card-content">
-                    <h1>Paper 2</h1>
-                    <div class="exam-image">
-                        <img src="assets/images/code.svg" alt="An image representing computer programming.">
-                    </div>
+                <div class="exam-card-content flex-container">
 
-                    <p><i class="fa-regular fa-calendar"></i> Date: May 8th, 2023</p>
+                    <div class="exam-card-header" id="paper2-header">
+                        <h3>Paper 2</h3>
+                    </div>
+                    <div class="exam-data">
+         <p><i class="fa-regular fa-calendar"></i> Date: May 8th, 2023</p>
                     <p><i class="fa-regular fa-square-check"></i> Marks: 65</p>
                     <p><i class="fa-regular fa-clock"></i> Duration: 80 minutes</p>
-                    <p><i class="fa-solid fa-scale-unbalanced-flip"></i></i> Weighting: 20</p>
+                    <p><i class="fa-solid fa-scale-unbalanced-flip"></i> Weighting: 20%</p>
+                    </div>
+           
                     <p class="exam-description">Short answer questions about the option topic you covered in class. Most
                         students choose Option D: Object Oriented Programming.</p>
                 </div>
             </div>
 
             <div class="exam-card-container">
-                <div class="exam-card-content">
-                    <h1>Paper 3</h1>
-                    <div class="exam-image">
-                        <img src="assets/images/community.svg" alt="An image representing the real world.">
+                <div class="exam-card-content flex-container">
+                    <div class="exam-card-header" id="paper3-header">
+                      <h3>Paper 3</h3>   
                     </div>
-
+                   
+                    <div class="exam-data">
                     <p><i class="fa-regular fa-calendar"></i> Date: May 8th, 2023</p>
                     <p><i class="fa-regular fa-square-check"></i> Marks: 30</p>
                     <p><i class="fa-regular fa-clock"></i> Duration: 60 minutes</p>
-                    <p><i class="fa-solid fa-scale-unbalanced-flip"></i></i> Weighting: 30</p>
+                    <p><i class="fa-solid fa-scale-unbalanced-flip"></i> Weighting: 30%</p>
+                    </div>
+
                     <p class="exam-description">Written response questions centered around the Case Study capped with a
                         written essay. This paper is showing that you did the research and understand how the topics in
                         the case study relate to the rest of course topics.</p>
@@ -104,7 +114,6 @@
         </div>
     </section>
 
-
     <footer>
         <h1>Legal Stuff</h1>
         <ul>
@@ -112,9 +121,14 @@
             <li>No warranty is given either expressed or implied for the accuracy or veracity of the content on this
                 site.</li>
         </ul>
+
+        <h4>Credits</h4>
+        <a href="https://www.freepik.com/free-vector/college-university-students-group-young-happy-people-standing-isolated-white-background_21852399.htm#query=happy%20students&position=8&from_view=search&track=sph">Image by studio4rt</a> on Freepik.
     </footer>
+
+  <script src="https://kit.fontawesome.com/6a251fd2ee.js" crossorigin="anonymous"></script>  
 </body>
 
-<script src="https://kit.fontawesome.com/6a251fd2ee.js" crossorigin="anonymous"></script>
+
 
 </html>

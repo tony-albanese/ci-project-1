@@ -1,73 +1,127 @@
 /* This stylesheet styles elements on the structure page. */
-
-
-/* Declare variables for the stylesheet.*/
-/* This is not good practice. Having declaration in two places for variables. See for fix later. */
-:root {
-
-    --primary-color-dark: #0000ff;
-    --secondary-color-dark: #002db3;
-    --primary-accent: #bfcfff;
-    --secondary-accent: #809fff;
-
-    --card-background-color: aliceblue;
-    --text-color: #3a3a3a;
-
-
-    --main-theme-color: rgb(13, 193, 253);
-
-
-
-    --bright-text-color: white;
-
-
-
-    --footer-background-color: grey;
-
-
-    --debug-color: #fafa00;
-    --secondary-debug-color: red;
-    --tertiary-debug-color: green;
-    --quaternary-debug-color: orange;
-    --quintal-debug-color: brown;
-
-    --image-debug-background-color: violet;
+section {
+    margin-top: 5em;
+    width: 100%;
+    height: auto;
 }
 
+p {
+    margin-bottom: 1em;
+}
+
+h3 {
+    margin-bottom: 0.5em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+.exam-term {
+    font-style: italic;
+}
 
 .question-section-container {
-    background-color: var(--debug-color);
-    display: grid;
-    grid-template-columns: auto;
+
+    grid-template-areas: 
+    "question-type-header question-type-header"
+    "question-description sample-response"
+    "sample-questions sample-questions"
+    ;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: minmax(270px, 600px) minmax(270px, 600px); 
+    justify-content: center;
 }
 
-.question-section-image-container {
-    background-color: var(--image-debug-background-color);  
-    grid-column: 1;
-    justify-self: right;
-    align-self: center;
+.question-type-header{
+   grid-area: question-type-header;
+   text-align: left; 
+   background-color: white;
+   padding-bottom: 0.5em;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+}
+
+.question-section-image-container{
+grid-area: question-section-image;
+padding: 2em;
+}
+
+.question-description-container{
+
+background-color: rgba(213, 212, 210,0.7);
+ grid-area: question-description;
+ padding: 2em;
+ 
+}
+
+.sample-response-container {
+background-color: rgba(252, 246, 189, 0.8);
+grid-area: sample-response;
+padding: 2em;
+
+}
+
+.sample-question-container{
+    background-color: rgba(191, 207, 255, 0.7);
+    grid-area: sample-questions;
+    padding: 2em;
+}
+
+#quesion1-section{
+
+    background: url("../images/brain-transparent.webp") no-repeat center center;
+}
+
+#question2-section {
+
+    background: url("../images/lego-transparent.webp") no-repeat center center;
+}
+
+#question3-section {
+
+    background: url("../images/write-transparent.webp") no-repeat center center;
+}
+
+#question4-section {
   
+    background: url("../images/essay-transparent.webp") no-repeat center center;
 }
 
-.question-section-image-container img {
-  
+
+footer a {
+    color: #d5d4d2;
+    font-size: 14px;
 }
 
-.question-section-text-container {
-    background-color: var(--quintal-debug-color);
-    grid-column: 2;
+@media only screen and (max-width: 600px) {
+    .question-section-container {
+        grid-template-areas:
+        "question-type-header"
+        "question-description"
+        "sample-response"
+        "sample-questions"
+        ;
+
+        grid-template-columns: 1fr;
+
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 
+        24px;
+    }
+
+    p, li {
+        font-size: 16px;
+    }
+
+    .question-section-image-container img {
+        visibility: hidden;
+    }
 }
-
-.question-description-container {
-background-color: var(--secondary-debug-color);
-}
-
-.sample-question-container {
-background-color: var(--tertiary-debug-color);
-}
-
-.sample-response-container{ 
-    background-color: var(--quaternary-debug-color);
-
-}
-

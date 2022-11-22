@@ -1,0 +1,149 @@
+/* Declare variables for the stylesheet.*/
+:root {
+
+    /* Theme colors generated from hero image*/
+    --sapphire-blue: #086A97ff;
+    --platinum: #E7E7E8ff;
+    --chinese-red: #B02D10ff;
+    --champagne-pink: #F2DDD3ff;
+    --tumbleweed: #EDB287ff;
+
+  
+    /* These are to color elements only found on the resources.html page. */
+
+    --article-resource-color: #d9d3e4;
+    --tutorial-resource-color: #edb4b9;
+    --resource-button-color:#086A97ff;
+    --video-resource-color: rgba(51, 101, 138, 0.4);
+    --summary-resource-color: rgba(252, 194, 76, 0.4);
+}
+
+.resource-card-container{
+    box-sizing: border-box;
+    width: 300px;
+    height: 500px;
+   
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    margin: 2em;
+    flex-direction: column;
+}
+
+/* Style declarations for all cards. */
+.resource-card-container:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.resource-card-content{
+    flex-direction: column;
+}
+
+.resource-section {
+    flex-wrap: wrap;
+}
+
+.resource-card-header {
+    display: grid;
+    flex-direction: column;
+    margin-bottom: 2em;
+    padding: 0.75em;
+}
+
+.resource-card-header h3, .resource-card-header h4 {
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.resource-section-header {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    margin-top: 1em;
+    margin-left: 0.5em;
+    margin-bottom: 0.25em;
+}
+
+.resource-description {
+    box-sizing: border-box;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+
+    padding: 1em;
+}
+
+.resource-description p {
+    background-color: rgba(255,255,255,0.6);
+}
+
+/* Declarations for article type resources. */
+.article-resource {
+    background-color: var(--article-resource-color);
+}
+
+.article-background {
+    background-image: url("../images/article-resource.webp") ;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* Styles for the tutorial type resource. */
+.tutorial-resource {
+    background-color: var(--tutorial-resource-color);
+}
+
+.tutorial-background {
+    background-image: url("../images/tutorial.webp") ;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Styles for the video type resources. */
+
+.video-resource {
+    background-color: var(--video-resource-color);
+}
+
+.video-background {
+    background-image: url("../images/video.webp") ;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Styles for summary type resources. */
+.summary-resource {
+    background-color: var(--summary-resource-color);
+}
+
+.summary-background {
+    background-image: url("../images/summary-one.webp") ;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* Styling the button. */
+.resource-button {
+    justify-self: center;
+    display: grid;
+    width: 150px;
+    height: 75px;
+    background-color:var(--resource-button-color);
+    align-content: center;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(233, 227, 227, 0.699);
+    border-radius: 8px;
+}
+
+.resource-button a {
+text-align: center;
+text-decoration: none;
+font-size: large;
+color: #F2DDD3ff;
+font-weight: 600;
+  
+}
+
