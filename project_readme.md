@@ -148,6 +148,16 @@ Without JavaScript, the site is necessarily static. the following features would
 ## Testing
 
 ### Development Testing
+Throughout the development of the project, testing was performed. As elements were added or a CSS style was applied, the behavior was checked in the Firefox Developer Edition web browser. There are many instances where the behavior that was desired and the behavior that was achieved were not the same. Sometimes it was a misunderstanding of how the CSS properties worked and sometimes it was from typos and coding mistakes. There are too many to list here. I will give a few key examples to give a sense of how the testing phase during development was carried out.
+
+#### Some Examples
+I started each page by marking up the content with HTML that best matched my designs. After adding basic styling I would run the markup through the validator. The validator caught several key errors.
++ I had misused the h1 element. I had h1 elements nested under h2 elements etc. The validator gave me a warning that this might confuse screen readers' navigation. I therefore had to refactor my html and adjust my CSS targets. 
++ The validator also caught several stray tags.
++ The validator also threw an error when I tried to make a button by nesting a button inside an anchor elmement (to make the button open a link without javascript). This forced me to wrap the anchor in a div and style the div.
++ Another peculiar error was that one two of the pages the nav bar was slightly different sizes which caused it to shift slightly when the user navigated. This was extremely jarring, even though the shift was small. Using the inspector on the Mozilla developer browser allowed me to compare each elment, its container, and styling side by side. The inspector helped me locate the error by showing the sizes of the navs were different. It turns out div that was placed inside an anchor rather than the other way around was causing the sizing issue.
++ Placing the buttons on the resource cards was particularly challenging. The inspector pointed out I was using the wrong positioning commands based on the type of container it was. 
++ Of particular use was the breakpoints for responsive layout. After imeplementing some layout declarations in CSS, I could test them immediately on different screen sizes and adjust accordingly. For example, this is how I found that the headers in the sections on the pages were overalpping on even mid-size tablet screens. I therefore added a media query to adjust the font size to avoid the wrapping. 
 
 ### High Level Testing
 High level testing was performed. The accuracy of links and navigation was tested for proper functionality. Website layout responsiveness was tested on the Chrome, Firefox, Opera, and Safari web browsers running on laptops. The website was also tested on a real Android device (Motorola G6+). The testing performed can be found in the following document whose size prevents clear reading here.
