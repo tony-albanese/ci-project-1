@@ -14,6 +14,7 @@
     --article-resource-color: #d9d3e4;
     --tutorial-resource-color: #edb4b9;
     --resource-button-color:#086A97ff;
+    --video-resource-color: rgba(51, 101, 138, 0.4);
 }
 
 .resource-card-container{
@@ -94,6 +95,18 @@
     background-repeat: no-repeat;
 }
 
+/* Styles for the video type resources. */
+
+.video-resource {
+    background-color: var(--video-resource-color);
+}
+
+.video-background {
+    background-image: url("../images/video.webp") ;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 /* Styling the button. */
 .resource-button {
     justify-self: center;
