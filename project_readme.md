@@ -108,6 +108,8 @@ Screenshot image of the feature
     >Have pleasing overall visual experience with a color scheme that is consistent and easy to read.
 - __Responsive Design__
 
+### Technology Used ###
+
 ### Features left to implement
 Without JavaScript, the site is necessarily static. the following features would be benefecial to add:
 * A sidebar on the exam structure page would be useful to navigate through the sections and to let users know their location on the page.
@@ -120,8 +122,10 @@ All Pages were run through the [W3C HTML Validator](https://validator.w3.org/) a
 CSS Stylesheet was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) and showed no errors.<br>
 Website was tested by running locally and tested on the deployed version. No differences found.
 ### Validator Testing
-All three pages passed the CSS v
+
 ### Unfixed Bugs
+
+
 
 ## Deployment
 
@@ -146,7 +150,20 @@ Any image creating software, Canva, etc
 Meteral Card
 Drop shadow
 ### Content
+The information about the exam schedule was taken from [IBO](https://www.ibo.org/programmes/diploma-programme/assessment-and-exams/exam-schedule/) which is the IB's website. The exam weightings and times are taken from the IB DP Computer Science courseguide.
+
+The content on the Exam Structure page is written entirely by me.
 ### Media
+The hero image was taken from [freepik.com](https://www.freepik.com/free-vector/college-university-students-group-young-happy-people-standing-isolated-white-background_21852399.htm#query=happy%20student&position=27&from_view=keyword) and is free to use with citation on the page. They provide the citation link to use.
+<br>
+The icons used on the landing page in the exam information card are from [Fontawesome](https://fontawesome.com)
+<br>
+The images used on the both the exam structure page and the resources page came from [Flaticon](https://www.flaticon.com) and are free to use with citation on  the page. They provide the citation link to use.
+<br>
+The ideas for a material card design were based on this article by Abbey Fitzgeralnd on her [blog](https://getflywheel.com/layout/flexbox-create-modern-card-design-layout/)
+<br>
+The CSS code to make the hover animation effect on the cards in the resources page was taken from this [codepen](https://codepen.io/sdthornton/pen/wBZdXq)
+
 
 <!-- 
 Better would also be a section on UX/UI.
