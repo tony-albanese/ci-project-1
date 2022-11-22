@@ -16,9 +16,24 @@ The teachers of this course are also included. The case study is made known to t
 ## Paper Hacker
 Paper Hacker addresses this gap in study resources and provides students a single resource to help them achieve their best on this particular exam while teachers can use the site to get resources to help them understand what to teach and how to teach it.
 
-### Target market
+## Target market
 
 This website is for both teachers and students of the International Baccalaureate's Diploma Programme Computer Science course.
+
+## UX Design
+
+### User Stories
+A User is a student or a teacher in the IB Diploma Programme Computer Science course.
+As a user, I want to:
+* Understand the purpose of the site from the landing page.
+* Easily navigate throughout the site
+* Access the material on a mobile screen, a tablet screen, or a larger screen.
+* Have an organized overview of resources whose structure is easily perceived
+* Have a variety of different types of resources available
+* Have a short summary of the resources available to help decide if it is what I need
+
+
+
 
 ## Features
 <!-- 
