@@ -1,6 +1,29 @@
-<!-- 
-The following are the MINIMUM sections needed in the README.
--->
+## Table of Contents
+- [Milestone Project 1](#milestone-project-1)
+  * [Purpose](#purpose)
+  * [Exam Hacker](#exam-hacker)
+  * [Target User Group](#target-user-group)
+  * [UX Design](#ux-design)
+    + [User Stories](#user-stories)
+  * [Features](#features)
+    + [Existing Features](#existing-features)
+      - [Landing Page Images](#landing-page-images)
+      - [Exam Structure Page Images](#exam-structure-page-images)
+      - [Exam Resources Page Imagees](#exam-resources-page-imagees)
+    + [Technology Used](#technology-used)
+    + [Features left to implement](#features-left-to-implement)
+  * [Testing](#testing)
+    + [Development Testing](#development-testing)
+      - [Some Examples](#some-examples)
+    + [High Level Testing](#high-level-testing)
+    + [Validator Testing](#validator-testing)
+  * [Deployment](#deployment)
+    + [Project Creation](#project-creation)
+    + [Using Github Pages](#using-github-pages)
+  * [Credits](#credits)
+    + [Content](#content)
+    + [Media](#media)
+
 # Milestone Project 1
 
 ## Purpose
