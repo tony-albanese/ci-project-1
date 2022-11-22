@@ -15,7 +15,7 @@
     --tutorial-resource-color: #edb4b9;
     --resource-button-color:#086A97ff;
     --video-resource-color: rgba(51, 101, 138, 0.4);
-    --summary-resource-color: #fcc24c;
+    --summary-resource-color: rgba(252, 194, 76, 0.4);
 }
 
 .resource-card-container{
