@@ -282,19 +282,19 @@ footer a {
 }
 
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 2600px) {
 
-    /* Set the size and position of the overlay element. */
+    /* /* Set the size and position of the overlay element.  */
     .hero-content-overlay {
         width: 60%;
     }
-
+ 
 }
 
 
 @media only screen and (max-width: 1024px) {
     .hero-content-overlay {
-        width: 100%;
+        width: 95%;
 
         justify-self: center;
         align-self: flex-end;
