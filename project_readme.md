@@ -109,6 +109,14 @@ Screenshot image of the feature
 - __Responsive Design__
 
 ### Technology Used ###
+HTML
+CSS
+GIMP
+Google Fonts
+Fontawesome
+Coolers.co
+Mozilla developer tools
+Balsamiq
 
 ### Features left to implement
 Without JavaScript, the site is necessarily static. the following features would be benefecial to add:
@@ -143,12 +151,6 @@ Describe gitpod...
 1. Click on the link to go to the live deployed page.
 
 ## Credits
-w3schools for info on layout ideas
-CSS Grid and Flexbox
-Scribna for design principles
-Any image creating software, Canva, etc
-Meteral Card
-Drop shadow
 ### Content
 The information about the exam schedule was taken from [IBO](https://www.ibo.org/programmes/diploma-programme/assessment-and-exams/exam-schedule/) which is the IB's website. The exam weightings and times are taken from the IB DP Computer Science courseguide.
 
