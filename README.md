@@ -14,9 +14,12 @@
     + [Features left to implement](#features-left-to-implement)
   * [Testing](#testing)
     + [Development Testing](#development-testing)
+      - [Deploying a Local Server](#deploying-a-local-server)
       - [Some Examples](#some-examples)
     + [High Level Testing](#high-level-testing)
     + [Validator Testing](#validator-testing)
+  * [Version Control Strategy](#version-control-strategy)
+    + [VCS in the GitPod IDE](#vcs-in-the-gitpod-ide)
   * [Deployment](#deployment)
     + [Project Creation](#project-creation)
     + [Using Github Pages](#using-github-pages)
@@ -149,7 +152,7 @@ As a user, I want to:
     * The site uses pure CSS3 to style the HTML elements. No libraries were used.
 * [GitPod](https://www.gitpod.io/)
     * Gitpod is a workspace that is closely integrated with GitHub. I used the IDE in their workspace (which is a version of VS Code) to code the project and 
-    push commits to GitHub.
+    push commits to GitHub. The idea of using GitPod is that it provides a standardized development environment that is easy to share.
 * [GIMP](https://www.gimp.org/)
     * GNU Image Manipulator Program. This powerful image editor was used to crop, scale, and adjust opacity of images.
 * [Google Fonts](https://fonts.google.com/knowledge)
@@ -173,6 +176,14 @@ Without JavaScript, the site is necessarily static. the following features would
 ### Development Testing
 Throughout the development of the project, testing was performed. As elements were added or a CSS style was applied, the behavior was checked in the Firefox Developer Edition web browser. There are many instances where the behavior that was desired and the behavior that was achieved were not the same. Sometimes it was a misunderstanding of how the CSS properties worked and sometimes it was from typos and coding mistakes. There are too many to list here. I will give a few key examples to give a sense of how the testing phase during development was carried out.
 
+#### Deploying a Local Server
+To deploy the website locally for debug and design purposes, I opened a terminal and launched a python server by entering:
+
+***
+python3 -m http.server
+***
+Then one can click on the PORTS tab and open port 8000 to see the local webserver address running on GitPod's servers. This is private by default. To open it to other browsers, one can click on the lock icon to open the port to any traffic. This is how I could test my website on different browesers before deployment.
+
 #### Some Examples
 I started each page by marking up the content with HTML that best matched my designs. After adding basic styling I would run the markup through the validator. The validator caught several key errors.
 + I had misused the h1 element. I had h1 elements nested under h2 elements etc. The validator gave me a warning that this might confuse screen readers' navigation. I therefore had to refactor my html and adjust my CSS targets. 
@@ -191,10 +202,18 @@ High level testing was performed. The accuracy of links and navigation was teste
 All Pages were run through the [W3C HTML Validator](https://validator.w3.org/) and showed no errors.  
 CSS Stylesheet was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) and showed no errors.  
 
+## Version Control Strategy
+Git was employed in this project and the project code hosted on [GitHub](https://github.com/). I used branches in order to keep the main branch as "pure" as possible. The strategy was to have each branch dedicated to one feature or fix. For example, coding the landing page or coding the structure page. I did not always stick to this strategy. There is a branch called re-design that has far too many commits. Ideally, these would be broken down further so that each branch is self explanatory as to what it is responsble for. Once I was satisfied at a particular stage of a branch, I would navigate to GitHub, click on my repository, select the branch, and create a pull request. GitHub would then check if there are no conflicts and indicate if the branch could be merged into main. (One can choose which branch to merge into.) Once the pull request is created, I navigated down, wrote a comment, and clicked on the green Merge button and the commits would be merged into the main branch.
+
+I tried to keep commits as atomic as possible - focusing only one one element or feature at a time. This was not always the case, but most of the commits are realtively small changes.
+
+### VCS in the GitPod IDE
+To make a commit, I clicked on the branch icon in the sidebar of the ide. There, one could see all the files that had changed since the last commit. To stage commits, I clicked on the plus icon next to the file that I wanted to stage. If I thought changes in different files should be commited together, I added multiple files. Occasionaly, after adding a bug or a breaking change, I would discard my changes by clicking in the left curly arrow icon. I then added a commit message in the textfield at the top of the sidebar which was as descriptive and brief as possible. I then clickd on the Commit button. To push, I clicked on the three dot icon and selected push.
 ## Deployment
 
 ### Project Creation
-The project was started by navigating to the [template] and clicking 'Use this template'. Under Repository name I input ci-project-1. I then navigated to the new [repository](https://github.com/tony-albanese/ci-project-1). I then clicked on the GitPod button which set up a GitPod workspace.
+* The project was started by navigating to the [template] and clicking 'Use this template'. Under Repository name I input ci-project-1. I then navigated to the new [repository](https://github.com/tony-albanese/ci-project-1). I then clicked on the GitPod button which set up a GitPod workspace.
+* To work on a project, navigate to [GitPod](https://www.gitpod.io/) and click on Dashboard which will navigate to the Workspaces. A workspace is where the project lives. Click on workspace and the VS Code IDE is launched in browser. (There is an option to work on the desktop.)
 
 ### Using Github Pages
 1. Navigate to the GitHub [Repository:](https://github.com/tony-albanese/ci-project-1)
