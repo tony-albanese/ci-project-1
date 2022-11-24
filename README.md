@@ -199,6 +199,13 @@ High level testing was performed. The accuracy of links and navigation was teste
 All Pages were run through the [W3C HTML Validator](https://validator.w3.org/) and showed no errors.  
 CSS Stylesheet was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) and showed no errors.  
 
+## Version Control Strategy
+Git was employed in this project and the project code hosted on [GitHub](https://github.com/). I used branches in order to keep the main branch as "pure" as possible. The strategy was to have each branch dedicated to one feature or fix. For example, coding the landing page or coding the structure page. I did not always stick to this strategy. There is a branch called re-design that has far too many commits. Ideally, these would be broken down further so that each branch is self explanatory as to what it is responsble for. Once I was satisfied at a particular stage of a branch, I would navigate to GitHub, click on my repository, select the branch, and create a pull request. GitHub would then check if there are no conflicts and indicate if the branch could be merged into main. (One can choose which branch to merge into.) Once the pull request is created, I navigated down, wrote a comment, and clicked on the green Merge button and the commits would be merged into the main branch.
+
+I tried to keep commits as atomic as possible - focusing only one one element or feature at a time. This was not always the case, but most of the commits are realtively small changes.
+
+### VCS in the GitPod IDE
+To make a commit, I clicked on the branch icon in the sidebar of the ide. There, one could see all the files that had changed since the last commit. To stage commits, I clicked on the plus icon next to the file that I wanted to stage. If I thought changes in different files should be commited together, I added multiple files. Occasionaly, after adding a bug or a breaking change, I would discard my changes by clicking in the left curly arrow icon. I then added a commit message in the textfield at the top of the sidebar which was as descriptive and brief as possible. I then clickd on the Commit button. To push, I clicked on the three dot icon and selected push.
 ## Deployment
 
 ### Project Creation
